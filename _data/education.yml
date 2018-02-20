@@ -1,14 +1,15 @@
 # Degree
-- degree: Associates Degree, Business Management
-  uni: Springfield College
-  year: 1984 &mdash; 1986
+- degree: 학사, 컴퓨터 소프트웨어학과
+  uni: 광운대학교
+  year: 2003 &mdash; 2010
   awards:
-    - award: Quickest to fall asleep
-    - award: Fastest donut eater
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: 4.07 / 4.5
+    - award: 공학인증
+    - award: 졸업논문: 대화식 유전 알고리즘을 이용한 문양 생성(한국정보과학회 2009)
+  summary: 
 
-- degree: High School Diploma
-  uni: Springfield High
-  year: 1984
-  award: Least likely to graduate College
-  summary: You can choose to have either a single or multiple awards
+- degree: 이과
+  uni: 태릉고등학교
+  year: 2000 &mdash; 2003
+  award: 
+  summary: 
