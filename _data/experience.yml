@@ -3,14 +3,15 @@
 - company: 에스코어(S-Core)
   position: 개발플랫폼팀(선임연구원)
   duration: 2015.08 &mdash; Present
-  summary: Tizen Studio의 다양한 Platform과 Profile의 Package 관리 및 관련 Application 개발, Common Utility 담당.<br>
+  summary: 
+  "Tizen Studio의 다양한 Platform과 Profile의 Package 관리 및 관련 Application 개발, Common Utility 담당.<br>
   JAVA기반의 멀티플랫폼 지원(Windows,Ubuntu,MacOS).<br>
   Application 및 동일 기능의 CLI 개발.
-  <ul class="resume-item-list">
+  <ul class='resume-item-list'>
     <li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li>
     <li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li>
     <li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li>
-  </ul>
+  </ul>"
 
 # Koast
 - company: 한국해양기상기술(KOAST)
