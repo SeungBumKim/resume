@@ -3,14 +3,14 @@
 
 # Tizen Studio
 - project: Tizen Studio
-  role: SW Developer
+  role: JAVA, NSIS, Script
   duration: 2015.08 &mdash; 2017.12
   # url: "#"
-  description: "&nbsp;&gt; Tizen Studio의 다양한 Platform과 Profile의 Package 관리.<br> &nbsp;&gt; Common Utility 개발.<br> &nbsp;&gt; Installer/Uninstaller/PackageManager Application 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; JAVA기반의 멀티플랫폼 지원(Windows,Ubuntu,MacOS).<br> &nbsp;&nbsp;&nbsp;&mdash; GUI 및 CLI 지원.<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li></ul>"
+  description: "&nbsp;&gt; Tizen Studio의 다양한 Platform과 Profile의 Package 관리.<br> &nbsp;&gt; Common Utility 개발.<br> &nbsp;&gt; Installer/Uninstaller/PackageManager Application 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 멀티플랫폼 지원(Windows, Ubuntu, MacOS).<br> &nbsp;&nbsp;&nbsp;&mdash; GUI 및 CLI 지원.<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li></ul>"
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# Visual Studio Code Extension for Tizen
+- project: Visual Studio Code Extension for Tizen
+  role: TypeScript
+  duration: 2017.04 &mdash; 2017.12
   # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  description: "&nbsp;&gt; Tizen Studio 자동설치 및 버전관리.<br> &nbsp;&gt; TIzen Studio CLI의 각종 기능 VSCode로 연결(프로젝트 생성 / 빌드 / 패키징 등).<br> &nbsp;&gt; 디버그 기능 연동(에뮬레이터/디바이스).<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/visual-studio-code-extension-tizen/installing-visual-studio-code-extension-tizen'>Visual Studio Code Extension for Tizen</a></li><li><a href='https://marketplace.visualstudio.com/items?itemName=tizen.vscode-tizen-csharp'>Visual Studio Code Marketplace</a></li></ul>"
