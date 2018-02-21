@@ -3,17 +3,16 @@
 - company: 에스코어(S-Core)
   position: 개발플랫폼팀(선임연구원)
   duration: 2015.08 &mdash; Present
-  summary: <b>1. Tizen Studio</b><br> &nbsp;&gt; Tizen Studio의 다양한 Platform과 Profile의 Package 관리.<br> &nbsp;&gt; Common Utility 개발.<br> &nbsp;&gt; Installer/Uninstaller/PackageManager Application 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; JAVA기반의 멀티플랫폼 지원(Windows,Ubuntu,MacOS).<br> &nbsp;&nbsp;&nbsp;&mdash; GUI 및 CLI 지원.<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li></ul>
+  summary: Tizen Studio의 패키지 관리 및 관련 Application 개발, Visual Studio Code Extension 개발, Visual Studio Extension 개발.
 
 # Koast
 - company: 한국해양기상기술(KOAST)
   position: 소프트웨어개발팀(선임연구원)
-  duration:  2013.10 &mdash; 2015.07
-  summary: 
-
+  duration: 2013.10 &mdash; 2015.07
+  summary: Android APP 개발 및 기상청 모니터링 시스템 개발 및 기상청 슈퍼컴퓨터 스케줄링 시스템 구축.
 
 # Humax
 - company: 휴맥스(HUMAX)
   position: 소프트웨어부문(대리)
-  duration:   2009.12 &mdash; 2013.10
-  summary: 
+  duration: 2009.12 &mdash; 2013.10
+  summary: 일본향 셋탑박스(위성, 케이블, 차량용, 블루레이, IPTV)의 Middleware 및 Application개발
