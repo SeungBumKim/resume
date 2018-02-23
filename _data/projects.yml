@@ -13,4 +13,12 @@
   role: TypeScript
   duration: 2017.04 &mdash; 2017.12
   # url: "#"
-  description: "&nbsp;&gt; Tizen Studio 자동설치 및 버전관리.<br> &nbsp;&gt; TIzen Studio CLI의 각종 기능 VSCode로 연결(프로젝트 생성 / 빌드 / 패키징 등).<br> &nbsp;&gt; 디버그 기능 연동(에뮬레이터/디바이스).<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/visual-studio-code-extension-tizen/installing-visual-studio-code-extension-tizen'>Visual Studio Code Extension for Tizen</a></li><li><a href='https://marketplace.visualstudio.com/items?itemName=tizen.vscode-tizen-csharp'>Visual Studio Code Marketplace</a></li></ul>"
+  description: "&nbsp;&gt; Tizen Studio 자동설치 및 버전관리.<br> &nbsp;&gt; TIzen Studio CLI의 각종 기능 VSCode로 연결(프로젝트 생성 / 빌드 / 패키징 등).<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/visual-studio-code-extension-tizen/installing-visual-studio-code-extension-tizen'>Visual Studio Code Extension for Tizen</a></li><li><a href='https://marketplace.visualstudio.com/items?itemName=tizen.vscode-tizen-csharp'>Visual Studio Code Marketplace</a></li></ul>"
+  
+ # PaaS Platform Visual Studio extension
+- project: PaaS Platform Visual Studio extension
+  role: TypeScript
+  duration: 2018.01 &mdash; Present
+  # url: "#"
+  description: "&nbsp;&gt; WPF를 활용한 Visual Studio extension 개발.<br> &nbsp;&gt; Tool 윈도우 제공 및 속성창 연동.<br> &nbsp;&gt; TChart를 이용한 APP 개발."
+
