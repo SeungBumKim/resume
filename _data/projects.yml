@@ -1,12 +1,12 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# Tizen Studio
-- project: Tizen Studio
-  role: JAVA, NSIS, Script
-  duration: 2015.08 &mdash; 2017.12
+# PaaS Platform Visual Studio extension
+- project: PaaS Platform Visual Studio extension
+  role: C#
+  duration: 2018.01 &mdash; Present
   # url: "#"
-  description: "&nbsp;&gt; Tizen Studio의 다양한 Platform과 Profile의 Package 관리.<br> &nbsp;&gt; Common Utility 개발.<br> &nbsp;&gt; Installer/Uninstaller/PackageManager Application 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 멀티플랫폼 지원(Windows, Ubuntu, MacOS).<br> &nbsp;&nbsp;&nbsp;&mdash; GUI 및 CLI 지원.<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li></ul>"
+  description: "&nbsp;&gt; WPF를 활용한 Visual Studio extension 개발.<br> &nbsp;&gt; Tool 윈도우 제공 및 속성창 연동.<br> &nbsp;&gt; TChart를 이용한 APP 개발."
 
 # Visual Studio Code Extension for Tizen
 - project: Visual Studio Code Extension for Tizen
@@ -14,11 +14,73 @@
   duration: 2017.04 &mdash; 2017.12
   # url: "#"
   description: "&nbsp;&gt; Tizen Studio 자동설치 및 버전관리.<br> &nbsp;&gt; TIzen Studio CLI의 각종 기능 VSCode로 연결(프로젝트 생성 / 빌드 / 패키징 등).<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/visual-studio-code-extension-tizen/installing-visual-studio-code-extension-tizen'>Visual Studio Code Extension for Tizen</a></li><li><a href='https://marketplace.visualstudio.com/items?itemName=tizen.vscode-tizen-csharp'>Visual Studio Code Marketplace</a></li></ul>"
-  
- # PaaS Platform Visual Studio extension
-- project: PaaS Platform Visual Studio extension
-  role: C#
-  duration: 2018.01 &mdash; Present
-  # url: "#"
-  description: "&nbsp;&gt; WPF를 활용한 Visual Studio extension 개발.<br> &nbsp;&gt; Tool 윈도우 제공 및 속성창 연동.<br> &nbsp;&gt; TChart를 이용한 APP 개발."
 
+# Tizen Studio
+- project: Tizen Studio
+  role: JAVA, NSIS, Script
+  duration: 2015.08 &mdash; 2017.12
+  # url: "#"
+  description: "&nbsp;&gt; Tizen Studio의 다양한 Platform과 Profile의 Package 관리.<br> &nbsp;&gt; Common Utility 개발.<br> &nbsp;&gt; Installer/Uninstaller/PackageManager Application 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 멀티플랫폼 지원(Windows, Ubuntu, MacOS).<br> &nbsp;&nbsp;&nbsp;&mdash; GUI 및 CLI 지원.<ul class='resume-item-list'><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio'>Tizen Studio Installer</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/uninstalling-tizen-studio'>Tizen Studio Uninstaller</a></li><li><a href='https://developer.tizen.org/development/tizen-studio/download/installing-tizen-studio/updating-tizen-studio'>Tizen Studio Package Manager</a></li></ul>"
+
+# Android App MarineTong
+- project: Android Application(마린통)
+  role: Android JAVA
+  duration: 2015.03 &mdash; 2015.07
+  # url: "#"
+  description: "&nbsp;&gt; Native관련 개발 담당.<br> &nbsp;&gt; 카메라, 갤러리를 통한 사진 등록 및 공유.<br> &nbsp;&gt; GPS를 통한 위치 정보에 대한 처리.<ul class='resume-item-list'><li><a href='https://play.google.com/store/apps/details?id=com.j3p.marinetong'>Play Stor - 마린통</a></li></ul>"
+
+# Android App Foxrain
+- project: Android Application(여우비날씨)
+  role: Android JAVA
+  duration: 1차: 2014.01 &mdash; 2014.07, 2차: 2014.12 &mdash; 2015.02
+  # url: "#"
+  description: "&nbsp;&gt; 기상청 실시간 날씨 및 비구름, 특보 정보 파싱 및 표출<br> &nbsp;&gt; Google Map을 통한 위/경도 정보를 실시간 소형기상 센서 정보 표출 및 사용자 날씨 정보 공유.<br> &nbsp;&gt; achartengine 이용 기압/온도/습도에 대한 실시간 데이터 그래프 생성.<br> &nbsp;&gt; 실시간 날씨 갱신 및 기압/온도 변화 알림.<br> &nbsp;&gt; 다양한 위젯 제공. <br> &nbsp;&gt; 카메라, 기상센서, 가속센서, GPS등 각종 시스템 기능 사용 및 제어.<ul class='resume-item-list'><li><a href='https://play.google.com/store/apps/details?id=net.koast.pressureinfo'>Play Stor - 여우비날씨</a></li></ul>"
+
+# 기상청 기후예측 웹 모니터링 시스템
+- project: 기상청 기후예측 웹 모니터링 시스템
+  role: PHP, JavaScript
+  duration: 2014.07 &mdash; 2014.12
+  # url: "#"
+  description: "&nbsp;&gt; 슈퍼컴퓨터 모델 수행 결과 로그 파싱 및 데이터 처리, 가시화 시스템 적용 표출.<br> &nbsp;&gt; 시스템 로그 분석 통계 처리하여 일간/월간 모델 수행 내역 보고서 생성.<br> &nbsp;&gt; 실시간 생성 모델 수행 그래픽 표출 및 편의 기능 제공."
+  
+ # 기상청 스케줄링 시스템 `ROSE` 구축
+- project: 기상청 스케줄링 시스템 `ROSE` 구축
+  role: Linux
+  duration: 2013.10 &mdash; 2014.03
+  # url: "#"
+  description: "&nbsp;&gt; 기상청 슈퍼컴퓨터 로컬 계정에 스케줄링 시스템 `ROSE` 구축.<br> &nbsp;&gt; ROSE 시스템 설치 가이드 작성 및 기본 교육."
+  
+ #  IP 셋탑박스 미들웨어(MW) 및 프레임워크 개발
+- project: 일본향 IP 셋탑박스
+  role: C, C++
+  duration: 2012.04 &mdash; 2013.10
+  # url: "#"
+  description: "&nbsp;&gt; 미들웨어(MW) 및 프레임워크 개발.<br> &nbsp;&gt; Myriod와 협업을 통한 안드로이드 셋탑박스에 연동 (소켓 통신), A/V 및 리모콘 신호 처리.<br> &nbsp;&gt; Google Youtube Play A/V 드라이버 연결 및 동작 처리.<br> &nbsp;&gt; Opera Browser와 셋탑박스 사이 MW 소켓통신을 통해서 방송 A/V 주요 동작을 Javascript를 통한 OIPF API 제공.<br> &nbsp;&gt; OIPF를 이용하는 웹앱 스크립트(Javascript 및 HTML) 분석 및 디버깅. <br> &nbsp;&gt; EPG(Electronic Program Guide) Framework 및 A/V 컨트롤을 위한 데이터 관리 및 처리."
+
+ #  PVR 셋탑박스 미들웨어(MW) 및 APP 개발
+- project: 일본향 PVR 셋탑박스
+  role: C
+  duration: 2012.02 &mdash; 2012.08
+  # url: "#"
+  description: "&nbsp;&gt; 미들웨어(MW)/어플리케이션(APP) 개발.<br> &nbsp;&gt; A/V 컨트롤 MW/APP 개발.<br> &nbsp;&gt; 방송 정보 내용 파싱 및 데이터 저장 관리.(EPG MW) <br> &nbsp;&gt; EPG APP(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약) 개발.<br> &nbsp;&gt; 설치 및 사용자 설정 메뉴 APP(기본설정 및 메일, 네트워크설정 등) 개발. <br> &nbsp;&gt; 생산 공장 테스트 전용 APP 및 MW개발(채널, 튜닝, 주파수 테스트)."
+
+ #  블루레이 셋탑박스
+- project: 일본향 블루레이 셋탑박스
+  role: C
+  duration: 2011.01 &mdash; 2012.04
+  # url: "#"
+  description: "&nbsp;&gt; 미들웨어(MW)/어플리케이션(APP) 개발.<br> &nbsp;&gt; MW 공통 모듈 개발: 공통 방송 프로그램 정보 테이블 파싱 및 방송 상세 정보 Data 저장 및 관린.<br> &nbsp;&gt; 방송 정보 내용 파싱 및 데이터 저장 관리(EPG MW).<br> &nbsp;&gt; EPG APP(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약) 개발.<br> &nbsp;&gt; 방송 정보 APP개발(현재 방송중인 채널의 정보 표출). <br> &nbsp;&gt; 설치 및 사용자 설정 메뉴 APP(기본설정 및 메일, 네트워크설정 등) 개발.<br> &nbsp;&gt; 생산자 및 설치자 테스트 전용 APP개발(채널 서치, 방송메일 조정 등)."
+
+ #  차량용 셋탑박스
+- project: 일본향 차량용 셋탑박스
+  role: C
+  duration: 2010.07 &mdash;2010.12
+  # url: "#"
+  description: "&nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&gt; 터치 스크린 기반 지상파 방송 정보 표시 APP 개발(시간대별, 요일 별 표시 가능).<br> &nbsp;&gt; 설치 및 설정 메뉴 APP(알림 메일, 해상도 등 설정).<br> &nbsp;&gt; GPS 수신 모듈을 통한 정보 수집 및 csv 저장."
+
+ #  위성 셋탑박스
+- project: 일본향 위성 셋탑박스
+  role: C
+  duration: 2010.01 &mdash;2010.06
+  # url: "#"
+  description: "&nbsp;&gt; 자동화 테스트 APP 개발.<br> &nbsp;&gt; 자동화 테스트 시나리오 입력(리모콘) APP 개발.<br> &nbsp;&gt; 시나리오기반 반복 테스트 및 로그 모니터링 기능 개발."
