@@ -32,7 +32,7 @@
 # Android App Foxrain
 - project: Android Application(여우비날씨)
   role: Android JAVA
-  duration: 1차: 2014.01 &mdash; 2014.07, 2차: 2014.12 &mdash; 2015.02
+  duration: "1차: 2014.01 &mdash; 2014.07, 2차: 2014.12 &mdash; 2015.02"
   # url: "#"
   description: "&nbsp;&gt; 기상청 실시간 날씨 및 비구름, 특보 정보 파싱 및 표출<br> &nbsp;&gt; Google Map을 통한 위/경도 정보를 실시간 소형기상 센서 정보 표출 및 사용자 날씨 정보 공유.<br> &nbsp;&gt; achartengine 이용 기압/온도/습도에 대한 실시간 데이터 그래프 생성.<br> &nbsp;&gt; 실시간 날씨 갱신 및 기압/온도 변화 알림.<br> &nbsp;&gt; 다양한 위젯 제공. <br> &nbsp;&gt; 카메라, 기상센서, 가속센서, GPS등 각종 시스템 기능 사용 및 제어.<ul class='resume-item-list'><li><a href='https://play.google.com/store/apps/details?id=net.koast.pressureinfo'>Play Stor - 여우비날씨</a></li></ul>"
 
