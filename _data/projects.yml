@@ -17,7 +17,7 @@
   
  # PaaS Platform Visual Studio extension
 - project: PaaS Platform Visual Studio extension
-  role: TypeScript
+  role: C#
   duration: 2018.01 &mdash; Present
   # url: "#"
   description: "&nbsp;&gt; WPF를 활용한 Visual Studio extension 개발.<br> &nbsp;&gt; Tool 윈도우 제공 및 속성창 연동.<br> &nbsp;&gt; TChart를 이용한 APP 개발."
