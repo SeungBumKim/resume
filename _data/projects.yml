@@ -34,14 +34,14 @@
   role: Android
   duration: "1차: 2013.11 &mdash; 2014.07, 2차: 2014.11 &mdash; 2015.03"
   # url: "#"
-  description: "&nbsp;&gt; 기상청 실시간 날씨/특보 정보 제공<br> &nbsp;&gt; Google Map기반 소형기상 센서 정보 표출 및 사용자 날씨 정보 공유.<br> &nbsp;&gt; 기압/온도/습도에 대한 실시간 차트 생성.<br> &nbsp;&gt; 날씨 갱신 및 기압/온도 변화 알림.<br> &nbsp;&gt; 다양한 위젯 제공. <br> &nbsp;&gt; Device 센서 제어(카메라, 기상센서, 가속센서, GPS). <ul class='resume-item-list'><li><a href='https://play.google.com/store/apps/details?id=net.koast.pressureinfo'>Play Store - 여우비날씨</a></li></ul>"
+  description: "&nbsp;&gt; 기상청 실시간 날씨/특보 정보 제공.<br> &nbsp;&gt; Google Map기반 소형기상 센서 정보 표출 및 사용자 날씨 정보 공유.<br> &nbsp;&gt; 기압/온도/습도에 대한 실시간 차트 생성.<br> &nbsp;&gt; 날씨 갱신 및 기압/온도 변화 알림.<br> &nbsp;&gt; 다양한 위젯 제공. <br> &nbsp;&gt; Device 센서 제어(카메라, 기상센서, 가속센서, GPS). <ul class='resume-item-list'><li><a href='https://play.google.com/store/apps/details?id=net.koast.pressureinfo'>Play Store - 여우비날씨</a></li></ul>"
 
-# 기상청 기후예측 웹 모니터링 시스템
-- project: 기상청 기후예측 웹 모니터링 시스템
+# 기상청 기후예측 웹 모니터링 시스템 개선
+- project: 기상청 기후예측 웹 모니터링 시스템 개선
   role: PHP, JavaScript
   duration: 2014.05 &mdash; 2014.12
   # url: "#"
-  description: "&nbsp;&gt; 기후예측 모델 수행 결과 로그 파싱 및 데이터 처리, 가시화 시스템 적용.<br> &nbsp;&nbsp;&nbsp;&mdash; 일간/월간 모델 수행 내역 보고서 작성.<br> &nbsp;&nbsp;&nbsp;&mdash; 실시간 모델 수행 그래픽 생성."
+  description: "&nbsp;&gt; 기후예측 모델 수행 결과 로그 파싱 및 데이터 처리, 가시화 시스템 적용.<br> &nbsp;&nbsp;&nbsp;&mdash; 일간/월간 모델 수행 내역 보고서 작성.<br> &nbsp;&nbsp;&nbsp;&mdash; 실시간 모델 수행 그래픽 생성. <br> &nbsp;&nbsp;&nbsp;&mdash; 관리자 메뉴 및 페이지 편집."
   
  # 기상청 스케줄링 시스템 `ROSE` 구축
 - project: 기상청 스케줄링 시스템 `ROSE` 구축
@@ -55,21 +55,21 @@
   role: C, C++
   duration: 2012.04 &mdash; 2013.10
   # url: "#"
-  description: "&nbsp;&gt; 미들웨어(MW) 및 프레임워크 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 3rd파트와 협업을 통한 안드로이드 셋탑박스에 연동(소켓 통신), A/V 및 리모콘 신호 처리.<br> &nbsp;&nbsp;&nbsp;&mdash; Google Youtube Play A/V 드라이버 연결 및 동작 처리.<br> &nbsp;&nbsp;&nbsp;&mdash; Opera Browser와 셋탑박스 MW 연동(A/V 주요 동작 OIPF API로 제공).<br> &nbsp;&nbsp;&nbsp;&mdash; OIPF를 이용하는 웹앱 스크립트(Javascript 및 HTML) 분석 및 디버깅. <br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) Framework 및 A/V 컨트롤을 위한 데이터 관리 및 처리."
+  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 3rd파트와 협업을 통한 안드로이드 셋탑박스에 연동(소켓 통신), A/V 및 리모콘 신호 처리.<br> &nbsp;&nbsp;&nbsp;&mdash; Youtube A/V 연동.<br> &nbsp;&nbsp;&nbsp;&mdash; Opera Browser와 셋탑박스 MW 연동(A/V 주요 동작 OIPF API로 제공).<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) 및 A/V 컨트롤을 위한 데이터 관리 및 처리."
 
  #  PVR 셋탑박스 미들웨어(MW) 및 APP 개발
 - project: 일본향 PVR 셋탑박스
   role: C
   duration: 2012.02 &mdash; 2012.08
   # url: "#"
-  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; A/V 컨트롤.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) <br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등). <br> &nbsp;&nbsp;&nbsp;&mdash; 생산 공장 테스트(채널, 튜닝, 주파수 테스트 등)."
+  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; A/V 컨트롤을 디바이스 드라이버 연동.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) 데이터 파싱 및 관리 <br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등). <br> &nbsp;&nbsp;&nbsp;&mdash; 생산 공장 테스트(채널, 튜닝, 주파수 테스트 등)."
 
  #  블루레이 셋탑박스
 - project: 일본향 블루레이 셋탑박스
   role: C
   duration: 2011.01 &mdash; 2012.04
   # url: "#"
-  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; MW 공통 모듈: 공통 방송 프로그램 정보 파싱 및 Data 관리.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드).<br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 현재 방송중인 정보 표시. <br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등).<br> &nbsp;&nbsp;&nbsp;&mdash; 생산자 및 설치자 테스트 전용 APP개발(채널 서치, 방송메일 조정 등)."
+  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; MW 공통 모듈: 공통 방송 프로그램 데이터 파싱 및 관리.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) 데이터 파싱 및 관리.<br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 현재 방송중인 정보 표시. <br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등).<br> &nbsp;&nbsp;&nbsp;&mdash; 생산자 및 설치자 테스트 전용 APP개발(채널 서치, 방송메일 조정 등)."
 
  #  차량용 셋탑박스
 - project: 일본향 차량용 셋탑박스
@@ -83,4 +83,4 @@
   role: C
   duration: 2010.01 &mdash;2010.06
   # url: "#"
-  description: "&nbsp;&gt; 자동화 테스트 APP 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 시나리오 입력(리모콘) 관리.<br> &nbsp;&nbsp;&nbsp;&mdash; 시나리오기반 반복 테스트 및 로그 모니터링 기능 개발."
+  description: "&nbsp;&gt; 자동화 테스트 APP 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; 시나리오 입력(리모콘) 관리.<br> &nbsp;&nbsp;&nbsp;&mdash; 테스트 자동 수행 및 로그 모니터링."
