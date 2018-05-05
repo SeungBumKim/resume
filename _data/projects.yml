@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # PaaS Platform Visual Studio extension
-- project: PaaS Platform Visual Studio extension
+- project: Windows Application 개발
   role: C#
   duration: 2018.01 &mdash; Present
   # url: "#"
@@ -62,7 +62,7 @@
   role: C
   duration: 2012.02 &mdash; 2012.08
   # url: "#"
-  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; A/V 컨트롤을 디바이스 드라이버 연동.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) 데이터 파싱 및 관리 <br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등). <br> &nbsp;&nbsp;&nbsp;&mdash; 생산 공장 테스트(채널, 튜닝, 주파수 테스트 등)."
+  description: "&nbsp;&gt; 미들웨어(MW) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; A/V 컨트롤 디바이스 드라이버 연동.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(방송정보 가이드) 데이터 파싱 및 관리 <br> &nbsp;&gt; 어플리케이션(APP) 개발.<br> &nbsp;&nbsp;&nbsp;&mdash; EPG(Grid 데이터 처리 및 장르/키워드 검색, 녹화/시청 예약).<br> &nbsp;&nbsp;&nbsp;&mdash; 설치 및 사용자 설정 메뉴(기본설정 및 메일, 네트워크설정 등). <br> &nbsp;&nbsp;&nbsp;&mdash; 생산 공장 테스트(채널, 튜닝, 주파수 테스트 등)."
 
  #  블루레이 셋탑박스
 - project: 일본향 블루레이 셋탑박스
