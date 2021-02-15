@@ -1,8 +1,20 @@
 # Jobs
+# 가우디오랩
+- company: 가우디오랩
+  position: ??
+  duration: 2021.03 &mdash; present
+  summary: ??
+
+# 현대통신
+- company: 현대통신(HT)
+  position: 플랫폼파트
+  duration: 2018.09 &mdash; 2021.03
+  summary: 해외향 리눅스/안드로이드 월패드 개발 및 HT Home 플랫폼 서버 개발
+
 # Score
 - company: 에스코어(S-Core)
   position: 개발플랫폼팀
-  duration: 2015.08 &mdash; Present
+  duration: 2015.08 &mdash; 2018.08
   summary: Tizen Studio의 패키지 관리 및 관련 Application 개발, Visual Studio Code Extension 개발, Windows Application 개발.
 
 # Koast
