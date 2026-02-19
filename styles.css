@@ -1,0 +1,270 @@
+:root {
+  --bg: #f4f6f8;
+  --paper: #ffffff;
+  --ink: #13232f;
+  --muted: #4e6573;
+  --line: #d7e0e6;
+  --accent: #0b6b8c;
+  --accent-soft: #d9eef5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 12% 10%, #e0efff 0, transparent 25%),
+    radial-gradient(circle at 85% 75%, #dff7ef 0, transparent 28%), var(--bg);
+  color: var(--ink);
+  font-family: "IBM Plex Sans KR", sans-serif;
+  line-height: 1.55;
+}
+
+.bg-shape {
+  position: fixed;
+  z-index: -1;
+  border-radius: 999px;
+  filter: blur(40px);
+  opacity: 0.55;
+}
+
+.bg-shape-a {
+  width: 260px;
+  height: 260px;
+  background: #b4d6ff;
+  top: -60px;
+  right: 12%;
+}
+
+.bg-shape-b {
+  width: 220px;
+  height: 220px;
+  background: #b8efdf;
+  bottom: 8%;
+  left: 6%;
+}
+
+.resume {
+  width: min(980px, calc(100% - 32px));
+  margin: 28px auto;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 12px 50px rgba(0, 26, 41, 0.08);
+  padding: 34px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: start;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 2px 0 8px;
+  font-size: clamp(34px, 4vw, 46px);
+  line-height: 1;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  max-width: 66ch;
+}
+
+.meta {
+  text-align: right;
+  font-size: 14px;
+}
+
+.meta p {
+  margin: 0 0 4px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.print-btn {
+  margin-top: 8px;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 22px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chip-list li {
+  border: 1px solid var(--line);
+  background: #f9fcff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.timeline {
+  display: grid;
+  gap: 14px;
+}
+
+.timeline article {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.period {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.role-meta {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.cards-kpi .card {
+  border-top-width: 3px;
+  background: #f7fcff;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 12px;
+  background: #fbfdff;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.stack-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.stack-list li {
+  margin: 4px 0;
+}
+
+@media (max-width: 860px) {
+  .resume {
+    padding: 18px;
+  }
+
+  .hero,
+  .timeline article,
+  .split,
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .meta {
+    text-align: left;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 11mm;
+  }
+
+  body {
+    background: #fff;
+    font-size: 11pt;
+  }
+
+  .bg-shape,
+  .print-btn {
+    display: none;
+  }
+
+  .resume {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  section {
+    margin-top: 14px;
+    break-inside: avoid;
+  }
+
+  .timeline article,
+  .card {
+    break-inside: avoid;
+  }
+}
