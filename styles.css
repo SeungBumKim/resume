@@ -154,6 +154,19 @@ ul {
   padding-left: 18px;
 }
 
+.timeline .sub-item {
+  margin-top: 0;
+  padding-left: 10px;
+  list-style: none;
+  position: relative;
+}
+
+.timeline .sub-item::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+
 .timeline {
   display: grid;
   gap: 14px;
