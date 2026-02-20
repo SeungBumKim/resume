@@ -7,9 +7,6 @@
 - `index.html`: 제출용 이력서
 - `career.html`: 상세 기술경력서
 - `styles.css`: 공통 스타일(화면/인쇄)
-- `localDir/WorkExperience.pdf`: 원본 경력기술서
-- `localDir/2021_Jira.xml` ~ `localDir/2026_Jira.xml`: Jira 이력 데이터
-- `localDir/CONCEPT.md`: 전략 메모
 
 ## 사용 방법
 - 웹 확인: `open index.html`, `open career.html`
