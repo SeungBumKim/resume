@@ -1,17 +1,16 @@
-# 김승범 이력서 (Web Resume)
+# 김승범 이력서 / 기술경력서
 
-배포 주소: https://seungbumkim.github.io/resume/
+- Resume: https://seungbumkim.github.io/resume/
+- Technical Career: https://seungbumkim.github.io/resume/career.html
 
-## 구조
-- `index.html`: 메인 이력서 페이지 (정적 HTML)
-- `styles.css`: 화면/모바일/인쇄(PDF) 스타일
-- `WorkExperience.pdf`: 원본 경력기술서
-- `CONCEPT.md`: 이직/이력서 전략 문서
+## 파일 구조
+- `index.html`: 제출용 이력서
+- `career.html`: 상세 기술경력서
+- `styles.css`: 공통 스타일(화면/인쇄)
+- `localDir/WorkExperience.pdf`: 원본 경력기술서
+- `localDir/2021_Jira.xml` ~ `localDir/2026_Jira.xml`: Jira 이력 데이터
+- `localDir/CONCEPT.md`: 전략 메모
 
 ## 사용 방법
-- 웹 보기: `index.html`을 브라우저로 열기
-- PDF 저장: 페이지 우측 상단 `PDF로 저장` 버튼 또는 브라우저 인쇄(`Cmd+P`)
-
-## 메모
-- 현재 버전은 "최근 경력 상세 + 초기 경력 압축" 전략을 반영했습니다.
-- 수상/자격(ACM-ICPC, 정보처리기사, 삼성 SW 검정 Pro)을 포함했습니다.
+- 웹 확인: `open index.html`, `open career.html`
+- PDF 저장: 각 페이지에서 `PDF로 저장` 또는 `Cmd+P`
