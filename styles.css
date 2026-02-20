@@ -193,6 +193,13 @@ ul {
   color: var(--muted);
 }
 
+#career-doc .role-meta {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -346,6 +353,43 @@ ul {
   .role-meta,
   .meta {
     font-size: 11px;
+  }
+
+  #career-doc {
+    line-height: 1.52;
+  }
+
+  #career-doc section {
+    margin-top: 16px;
+  }
+
+  #career-doc h2 {
+    margin-bottom: 11px;
+  }
+
+  #career-doc h3 {
+    margin-bottom: 7px;
+  }
+
+  #career-doc ul {
+    margin-top: 7px;
+    padding-left: 18px;
+  }
+
+  #career-doc li {
+    margin: 2px 0;
+  }
+
+  #career-doc .detail-block {
+    padding: 12px;
+    margin-bottom: 10px;
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  #career-doc .role-meta {
+    margin-bottom: 8px;
+    font-size: 12.5px;
   }
 }
 
