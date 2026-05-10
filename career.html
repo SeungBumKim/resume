@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>김승범 | 경력기술서</title>
-    <meta name="description" content="김승범 경력기술서 - Audio/AI SDK 통합 및 임베디드 최적화" />
+    <meta name="description" content="김승범 경력기술서 - Embedded SDK 통합 및 제약 환경 최적화" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,7 @@
           <p class="eyebrow">TECHNICAL CAREER DOCUMENT</p>
           <h1>김승범 경력기술서</h1>
           <p class="subtitle">
-            임베디드/플랫폼 SDK 개발·통합 관점에서, Android/TWS/Edge/Automotive 다중 타겟 제품화 수행 이력을 정리한 상세 문서
+            Embedded SDK 통합 관점에서 Android, Linux, DSP, Automotive 제품화 경험을 정리한 문서입니다. 최근에는 <strong>Automotive DSP 기반 차량 앰프 SDK 통합</strong>과 <strong>ADI SHARC+ 최적화</strong>를 중심으로 전장 적용 경험을 확장하고 있습니다.
           </p>
         </div>
         <div class="meta">
@@ -38,168 +38,86 @@
       <section>
         <h2>핵심 역량 요약</h2>
         <ul class="stack-list">
-          <li><strong>기술 역할</strong>: Audio/AI SDK 통합 엔지니어로서 다중 칩셋·다중 플랫폼 제품화를 주도</li>
-          <li><strong>핵심 강점</strong>: Android/TWS/Edge/Automotive에서 통합 지점 정의, 성능 최적화, 릴리즈 경로 기준화 수행</li>
-          <li><strong>업무 범위</strong>: 요구사항 분석부터 설계·구현·검증·배포·현장 대응까지 전 주기 수행</li>
+          <li><strong>기술 역할</strong>: <strong>Embedded SDK/플랫폼 통합</strong> 엔지니어로서 다중 칩셋·다중 제품 환경의 제품화를 수행</li>
+          <li><strong>핵심 강점</strong>: Android/Linux/DSP/Automotive 환경에서 <strong>통합 지점 정의</strong>, 성능 최적화, 릴리즈 경로 기준화</li>
+          <li><strong>최근 중점</strong>: <strong>Automotive DSP 기반 차량 앰프 SDK</strong>를 ADI SHARC+ 환경에 통합하고 <strong>메모리·MIPS 최적화</strong> 수행</li>
+          <li><strong>확장 경험</strong>: AI Inference SDK를 CPU/GPU/Edge 타겟으로 확장하고 WebRTC/GStreamer 경로에 통합</li>
+          <li><strong>업무 범위</strong>: 요구사항 분석, 설계, 구현, 검증, 배포, 고객/현장 이슈 대응까지 전 주기 수행</li>
         </ul>
       </section>
 
       <section>
-        <h2>상세 프로젝트</h2>
+        <h2>대표 프로젝트</h2>
 
         <article class="detail-block">
           <h3>1) 차량 앰프 SDK 개발/통합 및 튜닝 툴 구축</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2025.01 - 현재 (기여도 80%)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: 차량 앰프 SDK 상용 적용/출시를 위해 제약 환경 최적화와 튜닝 절차를 표준화.</p>
+          <p class="role-meta"><strong>성과</strong>: <strong>ADI SHARC+ 기반 차량 DSP 환경</strong>에서 SDK를 제품화하고, 초기 포팅 대비 <strong>프로그램 메모리 30%+, 데이터 메모리 20%+, MIPS 30%+ 절감</strong>.</p>
           <ul>
-            <li><strong>미션</strong>: 차량 DSP 제약 환경에서 SDK 통합을 성립시키고, 상용 적용 가능한 튜닝 운영 기반을 확보해야 함.</li>
-            <li><strong>역할</strong>: 차량 앰프 SDK의 설계·개발·통합·릴리즈와 현장 튜닝 대응까지 전 주기 주도.</li>
-            <li><strong>기술 환경</strong>: 언어: C/C++, Python | 칩셋: ADSP-21569, ADSP-21835 | 플랫폼/프레임워크: SHARC+, Audio Weaver, SigmaStudio, UART 제어 경로.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>차량용 SDK 모듈 구조 정리(입출력/제어/파라미터/상태 경로) 및 플랫폼 통합</li>
-                <li>DSP Library 기반 연산 경로 최적화 및 메모리 사용량 점검/조정</li>
-                <li>튜닝 파라미터 제어용 Python 툴(UI/제어/통신) 구현으로 현장 테스트 속도 개선</li>
-                <li>완성차/전장 고객 환경에서 포팅/동작 검증/데모 대응 및 이슈 후속 조치</li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>:
-              <ul>
-                <li>차량 DSP 제약 환경에서 상용 릴리즈 가능한 SDK 성능·안정성 기준 정립</li>
-                <li>동일 타겟(ADSP-21569/21835), 동일 알고리즘 기준 초기 포팅 버전 대비 프로그램 메모리 30% 이상, 데이터 메모리 20% 이상 절감으로 제약 구간 해소</li>
-                <li>동일 타겟(ADSP-21569/21835), 동일 알고리즘 기준 초기 포팅 버전 대비 MIPS 30% 이상 절감으로 실차 적용 가능한 처리 여유 확보</li>
-                <li>Python 튜닝 툴을 운영 절차에 반영해 현장 파라미터 조정 프로세스를 표준화</li>
-              </ul>
-            </li>
-            <li><strong>산출물</strong>: 차량 앰프용 최적화 SDK, CI/CD 파이프라인, 통합·운용 가이드, Python 튜닝 툴.</li>
+            <li><strong>기술</strong>: C/C++, Python, ADSP-21569/21835, Audio Weaver, SigmaStudio, UART</li>
+            <li>차량용 SDK의 입출력/제어/파라미터/상태 경로를 정리하고 플랫폼 통합 수행</li>
+            <li>DSP Library 기반 <strong>연산 경로 최적화</strong>와 메모리 사용량 조정으로 제약 구간 해소</li>
+            <li>Python 튜닝 툴을 개발해 <strong>현장 파라미터 조정</strong> 및 고객 대응 절차를 표준화</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>2) AI Inference SDK 다중 플랫폼 통합</h3>
+          <h3>2) AI Inference SDK 다중 플랫폼 확장</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2024.01 - 2024.12 (기여도 50%)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: AI Inference SDK 다중 타겟 적용을 위해 CPU/GPU/Edge 공통 베이스라인과 통합 절차를 구축.</p>
+          <p class="role-meta"><strong>성과</strong>: AI Inference SDK를 CPU/GPU/Edge 타겟으로 확장하고, 실서비스 미디어 경로에 통합 가능한 베이스라인을 구축.</p>
           <ul>
-            <li><strong>미션</strong>: 단일 런타임 중심 SDK를 CPU/GPU/Edge 다중 타겟으로 확장해야 함.</li>
-            <li><strong>역할</strong>: 포팅 전략 수립부터 런타임 통합·최적화·배포 전환까지 수행.</li>
-            <li><strong>기술 환경</strong>: 언어: C/C++ | 칩셋: GAP9, NVIDIA Tegra | 플랫폼/프레임워크: CPU 런타임, WebRTC, GStreamer.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>플랫폼별 빌드/런타임 차이 분석 후 통합 포팅 레이어 정비</li>
-                <li>WebRTC/GStreamer 경로에 SDK 삽입 및 입출력 버퍼 처리 안정화</li>
-                <li>Graph/Operator 단위 최적화로 연산량 및 메모리 사용 구간 개선</li>
-                <li>평가/배포 버전 기준으로 기능·성능 검증 및 이슈 대응</li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>:
-              <ul>
-                <li>CPU/GPU/Edge 다중 타겟에서 공통으로 적용 가능한 SDK 베이스라인 정립</li>
-                <li>제약된 시스템 리소스 환경 대비 대용량 모델/파라미터 처리 안정성 검증 완료</li>
-                <li>플랫폼별 통합·검증 절차를 운영 가이드로 기준화해 후속 타겟 확장 체계 구축</li>
-              </ul>
-            </li>
-            <li><strong>산출물</strong>: 다중 플랫폼용 최적화 SDK, CI/CD 파이프라인, 통합·운용 가이드, 성능 로그.</li>
+            <li><strong>기술</strong>: C/C++, GAP9, NVIDIA Tegra, CPU Runtime, WebRTC, GStreamer</li>
+            <li>플랫폼별 빌드/런타임 차이를 분석해 공통 포팅 레이어와 검증 절차 정리</li>
+            <li>WebRTC/GStreamer 경로에 SDK를 삽입하고 입출력 버퍼 처리 안정화</li>
+            <li>Graph/Operator 단위 병목을 점검해 연산량과 메모리 사용 구간 개선</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>3) TWS DSP Audio SDK 통합</h3>
+          <h3>3) TWS DSP SDK 통합</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2021.09 - 2023.12 (기여도 60~100%, 프로젝트별 상이)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: QCC/Airoha TWS DSP 제품화/출시 전환을 위해 통합 경로와 IMU 헤드 트래킹 운영 기준을 확립.</p>
+          <p class="role-meta"><strong>성과</strong>: QCC/Airoha 등 <strong>이기종 DSP 타겟</strong>에 SDK를 포팅하고, 제품 적용을 위한 검증·튜닝·릴리즈 경로를 정립.</p>
           <ul>
-            <li><strong>미션</strong>: QCC/Airoha TWS DSP에 공간음향 SDK와 IMU 헤드 트래킹을 통합해 상용 품질 확보.</li>
-            <li><strong>역할</strong>: 칩셋별 포팅 설계, IMU 연동 통합, SIMD/고정소수점 최적화, 릴리즈/현장 이슈 대응 수행.</li>
-            <li><strong>기술 환경</strong>: 언어: C/C++ | 칩셋: QCC5141/5151/5171, AB1565/1577/1585, BT8951(Bluetrum), BES2600YP.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>칩셋별 SDK 포팅 및 통합 포인트 정리(오디오 체인/센서/제어 경로)</li>
-                <li>IMU 센서 연동을 포함한 TWS DSP Audio SDK 통합 경로를 최적화해 공간음향 동작 안정성과 지연 특성을 개선</li>
-                <li>지연/버퍼/출력 체인 분석 기반으로 고객 타겟별 튜닝/검증 진행</li>
-                <li>튜닝 앱 기반 파라미터 제어 경로를 정비해 QCC 타겟에서 튜닝값 반영/확인 루프 운영</li>
-                <li>SIMD/고정소수점 최적화 적용 및 이식 시 동작 편차 이슈 해결</li>
-                <li>평가/상용 릴리즈 대응 및 통합 가이드 운영</li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>:
-              <ul>
-                <li>QCC/Airoha 등 이기종 TWS DSP 대상 공간음향 SDK 통합 기준 경로 정립</li>
-                <li>Airoha(AB1585/1577) 타겟에 통합 버전을 릴리즈하고 제품 적용 단계 전환</li>
-                <li>IMU 헤드 트래킹 연동 운영 기준(데이터레이트/변환/동기화) 기준화로 타겟별 재현 절차 확립</li>
-              </ul>
-            </li>
-            <li><strong>산출물</strong>: TWS 칩셋별 최적화 SDK, CI/CD 파이프라인, 통합·운용 가이드, 튜닝 앱, 지연 분석/테스트 이력.</li>
+            <li><strong>기술</strong>: C/C++, QCC5141/5151/5171, AB1565/1577/1585, BT8951, BES2600YP</li>
+            <li>칩셋별 오디오 체인/센서/제어 경로를 분석해 SDK 통합 포인트 정의</li>
+            <li>IMU 헤드 트래킹 연동, 지연/버퍼 분석, SIMD/고정소수점 최적화 수행</li>
+            <li>Airoha 타겟 통합 버전 릴리즈 및 고객 타겟별 튜닝/검증 대응</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>4) Android Audio Stack SDK 통합</h3>
+          <h3>4) Android SDK 통합 및 지연 분석</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2021.03 - 2021.09 (기여도 80%)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: Android 타겟 적용/출시를 위해 DSP/HAL/Effect 통합 기준과 지연 분석 체계를 정립.</p>
+          <p class="role-meta"><strong>성과</strong>: Android App/Framework/HAL/DSP <strong>전 레이어</strong>에서 SDK 적용 지점을 정의하고, DSP/HAL/Effect 통합 의사결정 기준을 정립.</p>
           <ul>
-            <li><strong>미션</strong>: Android App/Framework/HAL에서 SDK 적용 지점을 정의하고, 지연 원인 분석을 통해 최적 통합 경로를 수립함.</li>
-            <li><strong>역할</strong>: Android 내 SDK 통합 포인트 설계·통합, 지연 분석, 통합 기준 수립 및 릴리즈 대응 수행.</li>
-            <li><strong>기술 환경</strong>: 언어: C/C++ | 칩셋: Qualcomm Hexagon DSP | 플랫폼/프레임워크: Android Audio Effect, Audio HAL, AOSP Framework, Oboe/ExoPlayer 기반 앱 검증.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>Android App/Framework/HAL/DSP 연동 구조에서 통합 포인트 정의 및 적용</li>
-                <li>Qualcomm Hexagon DSP 경로 적용 가능 범위 점검 및 DSP 우선 통합 기준 정리</li>
-                <li>오디오 경로의 지연 유발 병목 구간 분석 및 통합 지점 식별</li>
-                <li>상황별 통합 포인트 의사결정 기준 수립:
-                  <ul>
-                    <li>DSP 처리 가능한 경로는 DSP 통합 우선</li>
-                    <li>DSP 경로가 어렵거나 제약이 큰 경우 HAL 측 통합으로 지연 최소화</li>
-                    <li>Audio Effect 통합은 포맷/경로 제약 및 추가 경유 오버헤드를 고려해 제한적으로 적용</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>:
-              <ul>
-                <li>Android Audio Stack의 SDK 적용 기준 경로(DSP/HAL/Effect) 정립</li>
-                <li>Hexagon DSP 적용 가능 경로를 기준화해 타겟별 통합 의사결정 절차 확립</li>
-                <li>재생 경로/포맷/디바이스 조건별 통합 규칙 문서화로 릴리즈 적용 일관성 확보</li>
-                <li>지연 유발 구간 분해 결과를 반영해 통합 리스크를 사전 점검 체계로 전환</li>
-              </ul>
-            </li>
-            <li><strong>산출물</strong>: Android 타겟 최적화 SDK, CI/CD 파이프라인, 통합·운용 가이드, 지연 분석 시트/테스트 시나리오.</li>
+            <li><strong>기술</strong>: C/C++, Android Audio Effect, Audio HAL, AOSP Framework, Qualcomm Hexagon DSP</li>
+            <li>Android 오디오 경로의 지연 유발 구간을 분해하고 통합 리스크를 사전 점검</li>
+            <li>DSP 우선 통합, HAL 대체 통합, Audio Effect 제한 적용 기준을 문서화</li>
+            <li>Oboe/ExoPlayer 기반 앱 검증으로 재생 경로별 동작 차이를 확인</li>
           </ul>
         </article>
 
         <article class="detail-block">
           <h3>5) Linux/Android 월패드 플랫폼 연동 제품화</h3>
           <p><strong>회사/기간</strong>: 현대에이치티, 2018.09 - 2021.03 (기여도 100%)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: 로컬 월패드 해외향 IoT 연동 제품화/출시를 완료하고 다기기 제어 병목을 완화.</p>
+          <p class="role-meta"><strong>성과</strong>: 기존 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하고, 다기기 제어 병목을 완화.</p>
           <ul>
-            <li><strong>미션</strong>: 기존 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하고, 기존 다기기 제어 성능 이슈를 함께 개선해야 함.</li>
-            <li><strong>역할</strong>: 기존 모델 분석 기반 해외향 연동 설계·개발·배포와 성능 이슈 개선 대응 수행.</li>
-            <li><strong>기술 환경</strong>: 언어: C/C++ | 플랫폼/프레임워크: Embedded Linux, Android, REST/MQTT/SIP, RS-485.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>기 개발된 로컬 월패드 모델을 기반으로 해외향 IoT 연동 기능 확장 및 적용</li>
-                <li>RS-485 제어/상태 Queue 분리로 다기기 구간 병목 완화</li>
-                <li>월패드 기능(설정/방범/기기제어/영상통화) 및 플랫폼 연동 안정화</li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>: 기존 모델의 해외향 IoT 연동 제품화 완료, 다기기 제어 성능 저하 이슈 완화.</li>
+            <li><strong>기술</strong>: C/C++, Embedded Linux, Android, REST, MQTT, SIP, RS-485</li>
+            <li>해외향 모델 분석·설계·개발·배포를 1인 프로젝트로 수행</li>
+            <li>RS-485 제어/상태 Queue 분리로 다기기 동시 연결 상황의 성능 저하 완화</li>
+            <li>월패드 기능과 HT Home 플랫폼 연동 안정화 및 출시 대응</li>
           </ul>
         </article>
 
         <article class="detail-block">
           <h3>6) 멀티플랫폼 개발환경 구축/운영성 개선</h3>
           <p><strong>회사/기간</strong>: 에스코어, 2015.08 - 2018.08 (기여도 40~60%, 프로젝트별 상이)</p>
-          <p class="role-meta"><strong>핵심 성과</strong>: 개발도구 배포/업데이트 운영 안정화를 위해 멀티플랫폼 설치/패키지 관리 체계를 개선.</p>
+          <p class="role-meta"><strong>성과</strong>: Tizen Studio 설치/패키지 관리 체계를 개선하고 Windows/Ubuntu/macOS 개발환경 운영성을 높임.</p>
           <ul>
-            <li><strong>미션</strong>: 개발도구 설치/업데이트/삭제 파이프라인의 운영 복잡도와 사용자 편의성 개선.</li>
-            <li><strong>역할</strong>: 설치·패키지 관리 모듈 설계/개발, VS Code 연동, 배포 운영 대응 수행.</li>
-            <li><strong>기술 환경</strong>: 언어: Java, TypeScript, NSIS Script | 플랫폼/프레임워크: Windows/Ubuntu/macOS, GUI/CLI.</li>
-            <li><strong>핵심 수행</strong>:
-              <ul>
-                <li>Installer/Uninstaller/Package Manager 구현 및 운영 시나리오 정리</li>
-                <li>멀티플랫폼 설치/업데이트/삭제 경로 검증 및 안정화</li>
-                <li>Tizen CLI 연동 VS Code Extension으로 개발 플로우 통합</li>
-              </ul>
-            </li>
-            <li><strong>미션 결과</strong>: 개발환경 운영성 개선 및 배포/업데이트 생산성 향상.</li>
+            <li><strong>기술</strong>: Java, TypeScript, NSIS Script, Windows, Ubuntu, macOS, GUI/CLI</li>
+            <li>Installer/Uninstaller/Package Manager 구현 및 업데이트 시나리오 정리</li>
+            <li>멀티플랫폼 설치/삭제/업데이트 검증 경로 안정화</li>
+            <li>VS Code Extension으로 Tizen CLI 기반 개발 플로우 연동</li>
           </ul>
         </article>
       </section>
@@ -207,7 +125,7 @@
       <section>
         <h2>기술 요약</h2>
         <ul class="stack-list">
-          <li><strong>통합</strong>: DSP Audio SDK, AI Inference SDK, Android App/Framework/HAL/DSP, TWS DSP, Automotive Amp</li>
+          <li><strong>통합</strong>: Embedded SDK, DSP SDK, Android App/Framework/HAL/DSP, TWS DSP, Automotive Amp, AI Inference SDK</li>
           <li><strong>품질/테스트</strong>: 정적 분석(cppcheck), 동적 분석(Valgrind/ASan), 코드 포맷(clang-format), 단위/통합 테스트 자동화</li>
           <li><strong>CI/CD</strong>: Jenkins 기반 빌드/배포 자동화 및 릴리즈 파이프라인 운영</li>
           <li><strong>플랫폼</strong>: Embedded Linux, Android</li>
