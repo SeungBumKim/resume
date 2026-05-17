@@ -15,8 +15,27 @@ def strip_tags(text: str) -> str:
     return html.unescape(collapsed)
 
 
+def format_position(text: str) -> str:
+    words = text.lower().split()
+    acronyms = {
+        "ai": "AI",
+        "cpu": "CPU",
+        "dsp": "DSP",
+        "gpu": "GPU",
+        "hal": "HAL",
+        "sdk": "SDK",
+        "tws": "TWS",
+    }
+    return " ".join(acronyms.get(word, word.capitalize()) for word in words)
+
+
 def main() -> None:
     src = INPUT_HTML.read_text(encoding="utf-8")
+
+    eyebrow_match = re.search(r"<p class=\"eyebrow\">(.*?)</p>", src, flags=re.S)
+    subtitle_match = re.search(r"<p class=\"subtitle\">\s*(.*?)\s*</p>", src, flags=re.S)
+    if not eyebrow_match or not subtitle_match:
+        raise SystemExit("포지셔닝 섹션을 찾을 수 없습니다.")
 
     section_match = re.search(
         r"<h2>\s*경력 요약\s*</h2>\s*<div class=\"timeline\">(.*?)</div>\s*</section>",
@@ -29,7 +48,13 @@ def main() -> None:
     timeline_html = section_match.group(1)
     articles = re.findall(r"<article>(.*?)</article>", timeline_html, flags=re.S)
 
-    lines = ["[경력 요약]"]
+    lines = [
+        "[포지셔닝]",
+        format_position(strip_tags(eyebrow_match.group(1))),
+        strip_tags(subtitle_match.group(1)),
+        "",
+        "[경력 요약]",
+    ]
     for block in articles:
         period = strip_tags(re.search(r"<div class=\"period\">(.*?)</div>", block, flags=re.S).group(1))
         title = strip_tags(re.search(r"<h3>(.*?)</h3>", block, flags=re.S).group(1))

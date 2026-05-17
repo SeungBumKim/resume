@@ -1,0 +1,49 @@
+[포지셔닝]
+Senior Embedded Audio / DSP SDK Integration Engineer
+Automotive, TWS, Android, Embedded Linux 환경에서 오디오/DSP SDK를 실제 제품 타겟에 통합하고 메모리·MIPS 최적화, 튜닝, 검증·릴리즈까지 수행해온 16년차 엔지니어입니다. 최근에는 ADI SHARC+ 기반 Automotive Amp SDK를 중심으로 전장 오디오 제품화를 수행하고 있습니다.
+
+[경력 요약]
+
+- 기간: 2021.03 - 현재
+  회사/직무: 가우디오랩 | Embedded Audio / DSP SDK 개발 및 통합
+  역할: SDK 개발/통합 엔지니어 | 기여도: 60~90% (프로젝트별 상이)
+  주요 내용:
+  - 차량 DSP의 메모리/MIPS 제약으로 제품 적용성이 제한되는 문제를 해결하기 위해 Automotive Amp SDK를 ADI SHARC+/Audio Weaver 기반으로 통합
+  - DSP Library 기반 연산 경로 최적화와 메모리 사용량 조정으로 메모리·MIPS 사용량 절감에 기여
+  - Python 기반 튜닝 UI/제어 도구를 구축해 현장 파라미터 조정과 고객 대응 절차를 표준화
+  - Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석하고 통합 기준 정리
+  - TWS DSP(QCC/Airoha 등)에 SDK를 포팅하고 SIMD/Fixed-point 최적화로 제약 환경 실행 안정성 확보
+  - AI Inference SDK를 CPU/GPU/Edge(GAP9, Tegra)와 WebRTC/GStreamer 미디어 경로로 확장해 SDK 통합 경험을 다중 플랫폼으로 확대
+
+- 기간: 2018.09 - 2021.03
+  회사/직무: 현대에이치티 | 월패드 플랫폼/서버 개발
+  역할: 플랫폼/서버 개발 엔지니어 | 기여도: 40~100% (프로젝트별 상이)
+  주요 내용:
+  - 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하기 위해 Linux/Android 월패드와 HT Home 플랫폼 연동 제품화(REST/MQTT/SIP)
+  - 해외향 모델 1인 프로젝트로 분석-설계-개발-배포 전 과정을 수행해 출시 대응
+  - 다기기 동시 제어 시 RS-485 병목이 발생하는 문제를 Queue 분리 구조로 개선해 제어 성능 저하 완화
+  - Push/방범/시나리오/도어벨 서비스 개발 및 MSA 전환에 참여
+
+- 기간: 2015.08 - 2018.08
+  회사/직무: 에스코어 | Tizen 개발플랫폼
+  역할: 개발플랫폼 엔지니어 | 기여도: 40~60% (프로젝트별 상이)
+  주요 내용:
+  - Tizen Studio Installer/Uninstaller/Package Manager 개발(Java, NSIS/Script)
+  - 멀티 플랫폼(Windows/Ubuntu/macOS) GUI/CLI 지원
+  - VS Code Extension(TypeScript) 기반 Tizen CLI 연동 자동화
+
+- 기간: 2013.10 - 2015.07
+  회사/직무: 한국해양기상기술 | Android/Web/시스템 구축
+  역할: 앱/웹 개발 및 구축 PM | 기여도: 프로젝트별 개발/PM 수행
+  주요 내용:
+  - Android 앱(여우비 v1/v2, 마린통) 개발 및 서비스 론칭
+  - 기상청 기후예측 웹 모니터링 시스템(로그 파싱/가시화/보고) 개발
+  - 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축 및 운영/교육 수행
+
+- 기간: 2009.12 - 2013.10
+  회사/직무: 휴맥스 | 일본향 셋탑박스 APP/MW 개발
+  역할: APP/Middleware 엔지니어 | 기여도: 모듈 개발 및 통합/디버깅 수행
+  주요 내용:
+  - 위성/차량/블루레이/PVR/IP 셋탑박스 APP/MW 개발
+  - EPG/A/V Control/데이터 파싱, OIPF/브라우저 연동, Android 연동 수행
+  - 제품별 통합/디버깅/테스트 자동화로 임베디드 상용화 기본기 확보
