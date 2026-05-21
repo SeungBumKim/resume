@@ -2,12 +2,12 @@
 
 ## Senior Embedded Audio / DSP SDK Integration Engineer
 
-임베디드·자동차 오디오 환경에서 DSP SDK를 실제 제품 타겟에 통합하고, 메모리·MIPS 최적화와 튜닝·검증·릴리즈까지 수행한 16년차 엔지니어입니다.
+임베디드·자동차 오디오 환경에서 DSP SDK를 실제 제품 타겟에 통합하고, 메모리·MIPS 제약 분석과 튜닝·검증·릴리즈까지 수행한 16년차 엔지니어입니다.
 
 핵심 메시지:
 - Automotive, TWS, Android, Embedded Linux 환경에서 오디오/DSP SDK 제품화 수행
 - ADI SHARC+ 기반 Automotive Amp SDK 통합 및 제약 환경 최적화
-- 초기 포팅 대비 Program Memory 30%+, Data Memory 20%+, MIPS 30%+ 절감에 기여
+- ADI SHARC+ 기반 Automotive Amp SDK 통합 과정에서 Program/Data Memory 및 MIPS 제약 완화
 - Python 기반 튜닝 UI/제어 도구 구축으로 현장 파라미터 조정 및 고객 대응 절차 표준화
 - SDK 적용 위치, 버퍼/지연, 메모리/MIPS 제약, 검증·릴리즈 기준을 구조화하는 데 강점
 
@@ -21,7 +21,7 @@
 - 문제: 차량 DSP 타겟의 Program/Data Memory와 MIPS 제약으로 초기 포팅 상태의 제품 적용성이 제한됨
 - 역할: Automotive Amp SDK의 입출력, 제어, 파라미터, 상태 경로를 정리하고 ADI SHARC+/Audio Weaver 기반 플랫폼 통합 수행
 - 역할: DSP Library 기반 연산 경로 최적화, 메모리 배치/사용량 조정, 불필요 연산 제거로 제약 구간 해소
-- 결과: 초기 포팅 대비 Program Memory 30%+, Data Memory 20%+, MIPS 30%+ 절감에 기여
+- 결과: 초기 포팅 상태에서 제품 적용을 어렵게 하던 Program/Data Memory 및 MIPS 제약 완화
 - 결과: Python 기반 튜닝 UI/제어 도구를 개발해 현장 파라미터 조정과 고객 대응 절차 표준화
 
 ### 2. TWS DSP SDK 통합
