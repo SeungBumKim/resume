@@ -38,10 +38,10 @@
       <section>
         <h2>핵심 역량 요약</h2>
         <ul class="stack-list">
-          <li><strong>기술 역할</strong>: <strong>Senior Embedded Audio / DSP SDK Integration Engineer</strong>로서 다중 칩셋·다중 제품 환경의 SDK 제품화를 수행</li>
+          <li><strong>기술 역할</strong>: <strong>Senior Embedded Audio / DSP SDK Integration Engineer</strong>로서 다중 칩셋·다중 제품 환경의 SDK 제품화 및 포팅을 수행</li>
           <li><strong>핵심 강점</strong>: 오디오 경로, 버퍼/지연, 메모리/MIPS 제약을 분석해 <strong>통합 지점 정의, 최적화 방향 수립, 검증·릴리즈 기준화</strong> 수행</li>
-          <li><strong>최근 성과</strong>: <strong>ADI SHARC+ 기반 Automotive Amp SDK</strong>를 차량 DSP 환경에 통합하고 Program/Data Memory 및 MIPS 제약 완화</li>
-          <li><strong>튜닝/현장 대응</strong>: Python 기반 튜닝 UI/제어 도구를 구축해 파라미터 조정과 고객/현장 대응 절차를 표준화</li>
+          <li><strong>최근 성과</strong>: <strong>차량용 헤드유닛(Telechips TCC8050 / NVIDIA Tegra X2)</strong> 및 <strong>외장 앰프(ADI SHARC+ DSP)</strong> 환경 오디오 SDK 포팅 및 최적화</li>
+          <li><strong>튜닝/현장 대응</strong>: Python 기반 실차 오디오 파라미터 튜닝 UI/제어 도구를 구축해 현장 튜닝 및 고객 대응 절차 표준화</li>
           <li><strong>확장 경험</strong>: TWS DSP, Android Audio, AI Inference SDK, Embedded Linux 제품화 경험을 오디오/DSP SDK 통합 역량의 확장 축으로 보유</li>
         </ul>
       </section>
@@ -50,29 +50,27 @@
         <h2>대표 프로젝트</h2>
 
         <article class="detail-block">
-          <h3>1) Automotive Amp SDK 개발/통합 및 튜닝 툴 구축</h3>
-          <p><strong>회사/기간</strong>: 가우디오랩, 2025.01 - 현재 (기여도 80%)</p>
-          <p class="role-meta"><strong>결과</strong>: <strong>ADI SHARC+ 기반 차량 DSP 환경</strong>에서 SDK를 제품화하고, Program/Data Memory 및 MIPS 제약 완화.</p>
+          <h3>1) Automotive 오디오 SDK 포팅 및 통합 (헤드유닛 & 외장 앰프)</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2024.01 - 현재 (기여도 50~100%)</p>
+          <p class="role-meta"><strong>결과</strong>: <strong>차량용 헤드유닛(Telechips TCC8050 / NVIDIA Tegra X2)</strong> 및 <strong>외장 앰프(ADI SHARC+ DSP)</strong> 환경 오디오/AI SDK 포팅 및 동작 안정화.</p>
           <ul>
-            <li><strong>기술</strong>: C/C++, Python, ADSP-21569/21835, Audio Weaver, SigmaStudio, UART</li>
-            <li><strong>문제</strong>: 차량 DSP 타겟의 Program/Data Memory와 MIPS 제약으로 초기 포팅 상태의 제품 적용성이 제한됨</li>
-            <li><strong>역할</strong>: 차량용 SDK의 입출력, 제어, 파라미터, 상태 경로를 정리하고 ADI SHARC+/Audio Weaver 기반 플랫폼 통합 수행</li>
-            <li><strong>역할</strong>: DSP Library 기반 연산 경로 최적화, 메모리 배치/사용량 조정, 불필요 연산 제거로 제약 구간 해소</li>
-            <li><strong>결과</strong>: 초기 포팅 상태에서 제품 적용을 어렵게 하던 Program/Data Memory 및 MIPS 제약 완화</li>
-            <li><strong>결과</strong>: Python 기반 튜닝 UI/제어 도구를 개발해 현장 파라미터 조정과 고객 대응 절차를 표준화</li>
+            <li><strong>기술</strong>: C/C++, Telechips TCC8050 (Subcore), ADSP-21569/21835, NVIDIA Tegra X2, Audio Weaver, SigmaStudio, GStreamer, Python, UART</li>
+            <li><strong>차량용 헤드유닛 포팅</strong>: Telechips TCC8050 Subcore(RTOS/Bare-metal) 환경 오디오 SDK 이식 및 오디오 블록 구동 제어</li>
+            <li><strong>헤드유닛 AI Inference 포팅</strong>: NVIDIA Tegra X2 타겟 AI Inference SDK 포팅 및 GStreamer 미디어 재생 경로 통합</li>
+            <li><strong>차량용 외장 앰프 최적화</strong>: ADI SHARC+ DSP(ADSP-21569/21835) 및 Audio Weaver 환경 SDK 통합, DSP Library 기반 연산 최적화 및 메모리 배치 조정을 통해 리소스 제약 극복</li>
+            <li><strong>튜닝 도구 구축</strong>: Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 툴 설계/개발</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>2) TWS DSP SDK 통합</h3>
-          <p><strong>회사/기간</strong>: 가우디오랩, 2021.09 - 2023.12 (기여도 60~100%, 프로젝트별 상이)</p>
-          <p class="role-meta"><strong>결과</strong>: QCC/Airoha 등 <strong>이기종 DSP 타겟</strong>에 SDK를 포팅하고, 제품 적용을 위한 검증·튜닝·릴리즈 경로를 정립.</p>
+          <h3>2) TWS & AI Edge SDK 통합 및 최적화</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2021.09 - 2023.12 (기여도 50~100%, 프로젝트별 상이)</p>
+          <p class="role-meta"><strong>결과</strong>: <strong>TWS DSP 및 GAP9 저전력 AI AP</strong> 타겟에 SDK를 포팅하고, 제품 적용을 위한 검증·튜닝·최적화 수행.</p>
           <ul>
-            <li><strong>기술</strong>: C/C++, QCC5141/5151/5171, AB1565/1577/1585, BT8951, BES2600YP</li>
-            <li><strong>문제</strong>: 칩셋별 오디오 체인, 센서, 제어 경로가 달라 동일 SDK의 제품 적용 방식이 매번 달라짐</li>
-            <li><strong>역할</strong>: 칩셋별 통합 포인트를 정의하고 IMU 헤드 트래킹, 지연/버퍼, 제어 경로를 분석</li>
-            <li><strong>역할</strong>: SIMD/Fixed-point 최적화로 제한된 DSP 연산/메모리 환경에서 실행 안정성 개선</li>
-            <li><strong>결과</strong>: Airoha 타겟 통합 버전 릴리즈 및 고객 타겟별 튜닝/검증 대응 체계 확보</li>
+            <li><strong>기술</strong>: C/C++, QCC5141/5151/5171, AB1565/1577/1585, BT8951 (Bluetrum), BES2600YP, Goodix (PoC), GAP9, CPU Runtime</li>
+            <li><strong>TWS DSP 포팅</strong>: QCC/Airoha/BES/Bluetrum/Goodix PoC 등 이기종 DSP 타겟 SDK 통합 포인트 정의, IMU 헤드 트래킹 및 지연/버퍼 분석</li>
+            <li><strong>AI Edge 포팅</strong>: GAP9(저전력 AI) 타겟 AI Inference SDK 포팅 및 입출력 버퍼 연동 안정화</li>
+            <li><strong>DSP 리소스 최적화</strong>: SIMD 및 Fixed-point 변환을 통한 제약 환경 연산 안정성 개선</li>
           </ul>
         </article>
 
@@ -90,20 +88,7 @@
         </article>
 
         <article class="detail-block">
-          <h3>4) AI Inference SDK 미디어 경로 통합 및 다중 플랫폼 확장</h3>
-          <p><strong>회사/기간</strong>: 가우디오랩, 2024.01 - 2024.12 (기여도 50%)</p>
-          <p class="role-meta"><strong>결과</strong>: AI Inference SDK를 CPU/GPU/Edge 타겟으로 확장하고, WebRTC/GStreamer 미디어 경로에 통합 가능한 베이스라인을 구축.</p>
-          <ul>
-            <li><strong>기술</strong>: C/C++, GAP9, NVIDIA Tegra, CPU Runtime, WebRTC, GStreamer</li>
-            <li><strong>문제</strong>: 타겟별 빌드/런타임 차이와 미디어 입출력 경로 차이로 SDK 적용 범위가 제한됨</li>
-            <li><strong>역할</strong>: 플랫폼별 차이를 분석해 공통 포팅 레이어와 검증 절차를 정리하고 CPU/GPU/Edge 타겟으로 확장</li>
-            <li><strong>역할</strong>: WebRTC/GStreamer 경로에 SDK를 삽입하고 입출력 버퍼 처리 안정화</li>
-            <li><strong>결과</strong>: 실서비스 미디어 경로에서 AI Inference SDK를 검증할 수 있는 다중 플랫폼 베이스라인 구축</li>
-          </ul>
-        </article>
-
-        <article class="detail-block">
-          <h3>5) Linux/Android 월패드 플랫폼 연동 제품화</h3>
+          <h3>4) Linux/Android 월패드 플랫폼 연동 제품화</h3>
           <p><strong>회사/기간</strong>: 현대에이치티, 2018.09 - 2021.03 (기여도 100%)</p>
           <p class="role-meta"><strong>결과</strong>: 기존 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하고, 다기기 제어 병목을 완화.</p>
           <ul>
@@ -116,7 +101,7 @@
         </article>
 
         <article class="detail-block">
-          <h3>6) 멀티플랫폼 개발환경 구축/운영성 개선</h3>
+          <h3>5) 멀티플랫폼 개발환경 구축/운영성 개선</h3>
           <p><strong>회사/기간</strong>: 에스코어, 2015.08 - 2018.08 (기여도 40~60%, 프로젝트별 상이)</p>
           <p class="role-meta"><strong>결과</strong>: Tizen Studio 설치/패키지 관리 체계를 개선하고 Windows/Ubuntu/macOS 개발환경 운영성을 높임.</p>
           <ul>
@@ -132,13 +117,13 @@
       <section>
         <h2>기술 요약</h2>
         <ul class="stack-list">
-          <li><strong>핵심 통합</strong>: Embedded Audio SDK, DSP SDK, SDK Integration, Automotive Amp SDK, TWS DSP, Android Audio</li>
+          <li><strong>핵심 통합</strong>: Embedded Audio SDK, DSP SDK, SDK Integration, Automotive Audio SDK, TWS DSP, Android Audio</li>
           <li><strong>최적화</strong>: DSP Library, Fixed-point, SIMD, Memory/MIPS Optimization, Latency/Buffer Analysis</li>
           <li><strong>품질/테스트</strong>: 정적 분석(cppcheck), 동적 분석(Valgrind/ASan), 코드 포맷(clang-format), 단위/통합 테스트 자동화</li>
           <li><strong>CI/CD</strong>: Jenkins 기반 빌드/배포 자동화 및 릴리즈 파이프라인 운영</li>
-          <li><strong>플랫폼</strong>: Embedded Linux, Android</li>
+          <li><strong>플랫폼</strong>: Embedded Linux, Android, RTOS / Bare-metal</li>
           <li><strong>미디어/프레임워크</strong>: WebRTC, GStreamer, Audio Weaver, SigmaStudio</li>
-          <li><strong>칩셋</strong>: Qualcomm Hexagon DSP, QCC5141/5151/5171, AB1565/1577/1585, BT8951(Bluetrum), BES2600YP, ADSP-21569/21835, Tegra, GAP9, Goodix(PoC)</li>
+          <li><strong>칩셋</strong>: Telechips TCC8050 Subcore, ADSP-21569/21835, QCC5141/5151/5171, AB1565/1577/1585, BES2600YP, BT8951(Bluetrum), Goodix(PoC), Qualcomm Hexagon DSP, NVIDIA Tegra X2, GAP9</li>
         </ul>
       </section>
 

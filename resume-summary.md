@@ -18,34 +18,31 @@ C/C++, Python, Embedded Linux, Android, Android Audio HAL, Audio DSP, ADI SHARC+
 
 ## 2021.03 - 현재 | 가우디오랩
 
-회사/직무: Embedded Audio / DSP SDK 개발 및 통합
-역할: SDK 개발/통합 엔지니어 | 기여도: 60~90% (프로젝트별 상이)
+회사/직무: Embedded Audio / DSP SDK 개발 및 플랫폼 포팅
+역할: SDK 플랫폼 포팅 및 통합 스페셜리스트 | 기여도: 60~100%
 
 주요 내용:
-- 차량 DSP의 메모리/MIPS 제약으로 초기 포팅 상태의 제품 적용성이 제한되는 문제를 해결하기 위해 Automotive Amp SDK를 ADI SHARC+/Audio Weaver 기반으로 통합하고 DSP Library 기반 최적화를 수행하여 제품 적용성을 개선
-- 현장 튜닝 절차가 수동/분산되어 있던 문제를 해결하기 위해 Python 기반 튜닝 UI/제어 도구를 개발하고, 파라미터 조정 및 고객/현장 대응 절차를 표준화
-- Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석하고, DSP/HAL/Audio Effect 적용 기준과 검증 절차를 정리
-- TWS DSP(QCC/Airoha 등) 환경에 SDK를 포팅하고 SIMD/Fixed-point 최적화를 적용하여, 제한된 연산/메모리 환경에서 실행 안정성과 제품 적용 가능성을 확보
-- AI Inference SDK를 CPU/GPU/Edge(GAP9, Tegra) 타겟과 WebRTC/GStreamer 미디어 경로에 통합하여, SDK 적용 경험을 다중 플랫폼으로 확대
-- Goodix 칩셋 기반 SDK 통합 PoC를 수행하여 신규 타겟 적용 전 빌드/런타임/성능 리스크를 사전 검증
+- **Automotive (차량용 헤드유닛 & 외장 앰프)**: 차량용 헤드유닛(Telechips TCC8050 Subcore) 환경 오디오 SDK 포팅, 차량용 외장 앰프(ADI SHARC+ ADSP-21569/21835) 및 Audio Weaver 기반 SDK 통합/최적화, 차량용 헤드유닛(NVIDIA Tegra X2) 타겟 AI Inference SDK 포팅 및 미디어 경로 확장
+- **TWS & AI Edge (무선 이어폰 DSP & 저전력 AI)**: 이기종 TWS DSP(QCC514x/515x/517x, Airoha, BES, Bluetrum, Goodix PoC) 및 GAP9(AI Edge) 환경 SDK 포팅, Fixed-point 및 SIMD 최적화를 통한 리소스 제약 극복
+- **Mobile (Android 모바일 오디오)**: Android App, Framework(Audio Effect), HAL, Qualcomm Hexagon DSP 전 레이어 SDK 포팅 및 지연 분석
+- **현장 대응 & 튜닝 툴**: Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 도구 설계/개발
 
 ### 리멤버 입력용
 
 업무 설명 - 전체 공개용:
-· Embedded Audio / DSP SDK 통합 및 제품화 수행
-· Automotive Audio / Automotive Amp SDK를 ADI SHARC+, Audio Weaver, SigmaStudio 기반 차량 DSP 환경에 통합
+· Embedded Audio / DSP SDK 플랫폼 포팅 및 통합 수행
+· Automotive Audio / Automotive Amp SDK를 Telechips TCC8050 Subcore, ADI SHARC+, Audio Weaver 기반 차량 환경에 이식 및 최적화
+· TWS DSP(Qualcomm QCC/Airoha/BES/Bluetrum/Goodix) SDK 포팅, Fixed-point/SIMD 최적화 및 튜닝 대응
 · Android Audio HAL/DSP/Audio Effect 적용 기준 분석 및 검증 절차 정리
-· TWS DSP(Qualcomm QCC/Airoha) SDK 포팅, 오디오 체인/버퍼/지연 분석 및 튜닝 대응
-· WebRTC/GStreamer 미디어 경로에 AI Inference SDK 통합
+· WebRTC/GStreamer 미디어 경로에 AI Inference SDK 통합 (NVIDIA Tegra X2, GAP9)
 · Python 기반 튜닝 UI/제어 도구 개발 및 고객/현장 대응 절차 표준화
 
 업무 설명 - 채용 담당자용:
-· Automotive Amp SDK: ADI SHARC+ / Audio Weaver / SigmaStudio 기반 차량 DSP 환경에 Automotive Amp SDK를 통합했습니다. SDK의 입출력, 제어, 파라미터, 상태 경로를 정리하고 차량 DSP의 Program/Data Memory 및 MIPS 제약을 분석했습니다. DSP Library 기반 연산 경로 최적화와 메모리 사용량 조정을 통해 초기 포팅 대비 Program Memory 30%+, Data Memory 20%+, MIPS 30%+ 절감에 기여했습니다.
-· Automotive 튜닝 툴: 현장 튜닝 절차가 수동/분산되어 있던 문제를 해결하기 위해 Python 기반 튜닝 UI/제어 도구를 개발했습니다. 파라미터 조정, 상태 확인, 고객/현장 대응 절차를 표준화해 전장 오디오 SDK의 현장 적용성을 높였습니다.
-· Android Audio SDK: Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석했습니다. Android Audio HAL, Audio Effect, Qualcomm Hexagon DSP 적용 기준을 비교하고, 타겟별 통합 및 검증 절차를 문서화했습니다.
-· TWS DSP SDK: Qualcomm QCC5141/5151/5171, Airoha AB1565/1577/1585, BT8951(Bluetrum), BES2600YP 등 TWS DSP 타겟에 SDK를 포팅했습니다. 칩셋별 오디오 체인, IMU/센서, 제어 경로를 분석하고 SIMD/Fixed-point 최적화와 고객 타겟별 튜닝/검증 대응을 수행해 제한된 DSP 환경에서의 실행 안정성과 릴리즈 가능성을 확보했습니다.
-· AI Inference SDK: AI Inference SDK를 CPU/GPU/Edge(GAP9, Tegra) 타겟으로 확장하고 WebRTC/GStreamer 미디어 경로에 통합했습니다. 타겟별 빌드/런타임 차이, 입출력 버퍼 처리, 미디어 경로 적용 방식을 정리해 SDK 적용 범위를 다중 플랫폼으로 확대했습니다.
-· 신규 타겟 PoC: Goodix 칩셋 기반 SDK 통합 PoC를 수행했습니다. 신규 칩셋 적용 전 빌드, 런타임, 성능, 통합 경로의 기술 리스크를 사전에 검증했습니다.
+· Automotive 오디오 SDK 포팅 & 통합: 차량용 헤드유닛(Telechips TCC8050 Subcore) 환경에 오디오 SDK를 포팅하고 안정화했습니다. 차량용 외장 앰프(ADI SHARC+ DSP) 및 Audio Weaver 환경에 SDK를 통합하고, DSP Library 기반 연산 최적화와 메모리 배치를 통해 리소스 제약(Memory, MIPS)을 극복했습니다.
+· Automotive 튜닝 툴: 실차 환경에서의 튜닝 절차를 표준화하고 고객사 기술 대응을 용이하게 하기 위해 Python 기반 튜닝 UI 및 제어 도구를 설계/개발했습니다.
+· Android Audio SDK: Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석하고, Qualcomm Hexagon DSP 및 HAL/Effect 적용 기준과 검증 절차를 정리했습니다.
+· TWS DSP SDK: Qualcomm QCC5141/5151/5171, Airoha AB1565/1577/1585, BT8951(Bluetrum), BES2600YP 및 Goodix PoC 칩셋 등 다양한 TWS DSP 타겟에 SDK를 포팅했습니다. Fixed-point 변환 및 SIMD 최적화를 적용해 초저전력/제약 환경에서의 성능을 극대화했습니다.
+· AI Inference SDK: AI Inference SDK를 CPU/GPU/Edge(GAP9, NVIDIA Tegra X2) 타겟으로 확장하고 WebRTC/GStreamer 미디어 경로에 통합해 다중 플랫폼 베이스라인을 구축했습니다.
 
 ## 2018.09 - 2021.03 | 현대에이치티
 
