@@ -6,7 +6,7 @@ Automotive, TWS, Android, Embedded Linux 환경에서 오디오/DSP SDK를 실�
 
 - 기간: 2021.03 - 현재
   회사/직무: 가우디오랩 | Embedded Audio / DSP SDK 개발 및 플랫폼 포팅
-  역할: SDK 플랫폼 포팅 및 통합 스페셜리스트 | 기여도: 60~100%
+  역할: SDK 플랫폼 포팅 및 통합 엔지니어 | 기여도: 60~100%
   주요 내용:
   - 차량용 헤드유닛 (Telechips TCC8050 Subcore) 환경 오디오 SDK 포팅 및 동작 안정화
   - 차량용 외장 앰프 (ADI SHARC+ ADSP-21569/21835) 및 Audio Weaver 기반 SDK 통합 및 연산/메모리 최적화

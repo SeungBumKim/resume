@@ -14,12 +14,12 @@ Senior Embedded Audio / DSP SDK Integration Engineer
 - 제약 환경 성능 분석, 튜닝, 검증·릴리즈
 
 주요 기술:
-C/C++, Python, Embedded Linux, Android, Android Audio HAL, Audio DSP, ADI SHARC+, Qualcomm Hexagon DSP, QCC, Airoha, Audio Weaver, SigmaStudio, TWS DSP, WebRTC, GStreamer
+C/C++, Python, Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Audio DSP, ADI SHARC+, Telechips TCC8050 Subcore, Qualcomm Hexagon DSP, QCC, Airoha, NVIDIA Tegra X2, GAP9, Audio Weaver, SigmaStudio, WebRTC, GStreamer
 
 ## 2021.03 - 현재 | 가우디오랩
 
 회사/직무: Embedded Audio / DSP SDK 개발 및 플랫폼 포팅
-역할: SDK 플랫폼 포팅 및 통합 스페셜리스트 | 기여도: 60~100%
+역할: SDK 플랫폼 포팅 및 통합 엔지니어 | 기여도: 60~100%
 
 주요 내용:
 - **Automotive (차량용 헤드유닛 & 외장 앰프)**: 차량용 헤드유닛(Telechips TCC8050 Subcore) 환경 오디오 SDK 포팅, 차량용 외장 앰프(ADI SHARC+ ADSP-21569/21835) 및 Audio Weaver 기반 SDK 통합/최적화, 차량용 헤드유닛(NVIDIA Tegra X2) 타겟 AI Inference SDK 포팅 및 미디어 경로 확장
@@ -31,18 +31,16 @@ C/C++, Python, Embedded Linux, Android, Android Audio HAL, Audio DSP, ADI SHARC+
 
 업무 설명 - 전체 공개용:
 · Embedded Audio / DSP SDK 플랫폼 포팅 및 통합 수행
-· Automotive Audio / Automotive Amp SDK를 Telechips TCC8050 Subcore, ADI SHARC+, Audio Weaver 기반 차량 환경에 이식 및 최적화
-· TWS DSP(Qualcomm QCC/Airoha/BES/Bluetrum/Goodix) SDK 포팅, Fixed-point/SIMD 최적화 및 튜닝 대응
-· Android Audio HAL/DSP/Audio Effect 적용 기준 분석 및 검증 절차 정리
-· WebRTC/GStreamer 미디어 경로에 AI Inference SDK 통합 (NVIDIA Tegra X2, GAP9)
-· Python 기반 튜닝 UI/제어 도구 개발 및 고객/현장 대응 절차 표준화
+· Automotive (차량용 헤드유닛 & 외장 앰프) 오디오/AI SDK 포팅 및 최적화 (TCC8050, ADSP-21569, NVIDIA Tegra X2, Audio Weaver)
+· TWS & AI Edge (QCC/Airoha/BES/Bluetrum/Goodix/GAP9) SDK 포팅, Fixed-point/SIMD 최적화 및 안정화
+· Android App/Framework/HAL/DSP 전 레이어 오디오 SDK 이식 및 지연(Latency) 분석
+· Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 툴 설계/개발
 
 업무 설명 - 채용 담당자용:
-· Automotive 오디오 SDK 포팅 & 통합: 차량용 헤드유닛(Telechips TCC8050 Subcore) 환경에 오디오 SDK를 포팅하고 안정화했습니다. 차량용 외장 앰프(ADI SHARC+ DSP) 및 Audio Weaver 환경에 SDK를 통합하고, DSP Library 기반 연산 최적화와 메모리 배치를 통해 리소스 제약(Memory, MIPS)을 극복했습니다.
-· Automotive 튜닝 툴: 실차 환경에서의 튜닝 절차를 표준화하고 고객사 기술 대응을 용이하게 하기 위해 Python 기반 튜닝 UI 및 제어 도구를 설계/개발했습니다.
+· Automotive 오디오 SDK 포팅 & 통합: 차량용 헤드유닛(Telechips TCC8050 Subcore, NVIDIA Tegra X2) 및 외장 앰프(ADI SHARC+ DSP, Audio Weaver) 환경에 오디오/AI SDK를 포팅하고 안정화했습니다. DSP Library 기반 연산 최적화와 메모리 배치를 통해 리소스 제약(Memory, MIPS)을 극복했습니다.
+· TWS & AI Edge SDK 포팅 & 최적화: QCC514x/515x/517x, Airoha AB1565/1577/1585, BES2600YP, Bluetrum BT8951, Goodix PoC 및 GAP9(AI Edge) 타겟에 SDK를 이식했습니다. Fixed-point 변환 및 SIMD 최적화를 통해 초저전력/제약 환경에서의 동작 신뢰성을 확보했습니다.
 · Android Audio SDK: Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석하고, Qualcomm Hexagon DSP 및 HAL/Effect 적용 기준과 검증 절차를 정리했습니다.
-· TWS DSP SDK: Qualcomm QCC5141/5151/5171, Airoha AB1565/1577/1585, BT8951(Bluetrum), BES2600YP 및 Goodix PoC 칩셋 등 다양한 TWS DSP 타겟에 SDK를 포팅했습니다. Fixed-point 변환 및 SIMD 최적화를 적용해 초저전력/제약 환경에서의 성능을 극대화했습니다.
-· AI Inference SDK: AI Inference SDK를 CPU/GPU/Edge(GAP9, NVIDIA Tegra X2) 타겟으로 확장하고 WebRTC/GStreamer 미디어 경로에 통합해 다중 플랫폼 베이스라인을 구축했습니다.
+· Automotive 튜닝 툴: 실차 환경에서의 오디오 파라미터 튜닝 절차를 표준화하고 고객사 기술 대응을 용이하게 하기 위해 Python 기반 튜닝 UI 및 제어 도구를 설계/개발했습니다.
 
 ## 2018.09 - 2021.03 | 현대에이치티
 
