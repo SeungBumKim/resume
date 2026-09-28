@@ -173,18 +173,24 @@ ul {
 }
 
 .timeline article {
-  display: grid;
-  grid-template-columns: 170px 1fr;
-  gap: 14px;
+  position: relative;
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 12px;
 }
 
 .period {
+  position: absolute;
+  top: 12px;
+  right: 12px;
   font-size: 13px;
   color: var(--muted);
   font-weight: 600;
+  white-space: nowrap;
+}
+
+.timeline h3 {
+  padding-right: 150px;
 }
 
 .role-meta {
@@ -224,16 +230,6 @@ ul {
   color: var(--muted);
 }
 
-.project-meta {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 13px;
-  color: var(--ink);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -255,10 +251,18 @@ ul {
   }
 
   .hero,
-  .timeline article,
   .split,
   .cards {
     grid-template-columns: 1fr;
+  }
+
+  .period {
+    position: static;
+    margin-bottom: 4px;
+  }
+
+  .timeline h3 {
+    padding-right: 0;
   }
 
   .meta {
@@ -309,9 +313,17 @@ ul {
   }
 
   .timeline article {
-    grid-template-columns: 140px 1fr;
-    gap: 9px;
     padding: 9px;
+  }
+
+  .period {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+  }
+
+  .timeline h3 {
+    padding-right: 132px;
   }
 
   .split {
@@ -348,7 +360,6 @@ ul {
     padding: 9px;
   }
 
-  .project-meta,
   .period,
   .role-meta,
   .meta {
