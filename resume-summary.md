@@ -2,45 +2,40 @@
 
 ## 포지셔닝
 
-Senior Embedded Audio / DSP SDK Integration Engineer
+Senior Embedded / Platform Software Engineer
 
-임베디드·자동차 오디오 환경에서 DSP SDK를 실제 제품 타겟에 통합하고, 메모리·MIPS 제약 분석과 튜닝·검증·릴리즈까지 수행한 16년차 엔지니어입니다. 최근에는 Automotive Amp SDK를 ADI SHARC+ 기반 차량 DSP 환경에 통합하고, 제약 환경에서의 제품 적용성을 개선했습니다.
+상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 17년차 엔지니어입니다. 최근에는 다양한 OS·SoC 환경에서 SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈를 수행했습니다.
 
 ## 리멤버 입력용 전문 분야
 
 전문 분야:
-- Embedded Audio / DSP SDK Integration
-- Automotive / TWS / Android Audio 제품 통합
+- Embedded / Platform Software Development
+- SDK Development & System Integration
 - 제약 환경 성능 분석, 튜닝, 검증·릴리즈
 
 주요 기술:
-C/C++, Python, Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Audio DSP, ADI SHARC+, Telechips TCC8050 Subcore, Qualcomm Hexagon DSP, QCC, Airoha, NVIDIA Tegra X2, GAP9, Audio Weaver, SigmaStudio, WebRTC, GStreamer
+C/C++, Java, Python, AAOS (Android Automotive OS), Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Audio DSP, Qualcomm SA, ADI SHARC+, Telechips TCC8050, Qualcomm Hexagon DSP, QCC, Airoha, NVIDIA Tegra X2, GAP9, Audio Weaver, SigmaStudio, WebRTC, GStreamer
 
 ## 2021.03 - 현재 | 가우디오랩
 
-회사/직무: Embedded Audio / DSP SDK 개발 및 플랫폼 포팅
-역할: SDK 플랫폼 포팅 및 통합 엔지니어 | 기여도: 60~100%
+회사/직무: SDK 개발 및 플랫폼 통합
+역할: SDK 개발·검증 및 플랫폼 통합 엔지니어 | 기여도: 60~100%
 
 주요 내용:
-- **Automotive (차량용 헤드유닛 & 외장 앰프)**: 차량용 헤드유닛(Telechips TCC8050 Subcore) 환경 오디오 SDK 포팅, 차량용 외장 앰프(ADI SHARC+ ADSP-21569/21835) 및 Audio Weaver 기반 SDK 통합/최적화, 차량용 헤드유닛(NVIDIA Tegra X2) 타겟 AI Inference SDK 포팅 및 미디어 경로 확장
-- **TWS & AI Edge (무선 이어폰 DSP & 저전력 AI)**: 이기종 TWS DSP(QCC514x/515x/517x, Airoha, BES, Bluetrum, Goodix PoC) 및 GAP9(AI Edge) 환경 SDK 포팅, Fixed-point 및 SIMD 최적화를 통한 리소스 제약 극복
-- **Mobile (Android 모바일 오디오)**: Android App, Framework(Audio Effect), HAL, Qualcomm Hexagon DSP 전 레이어 SDK 포팅 및 지연 분석
-- **현장 대응 & 튜닝 툴**: Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 도구 설계/개발
+- 제품 요구사항과 자원 제약을 분석해 공통 SDK를 개발하고 Android·TWS DSP·AAOS/Embedded Linux·AI Edge 타깃에 통합
+- 지연·메모리·연산량 문제를 분석·최적화하고 테스트 자동화와 CI/CD 기반 검증·릴리즈 수행
+- 대표 적용: Android Framework/HAL, QCC·Airoha·BES, Qualcomm SA·Telechips IVI, ADI SHARC+, GAP9, NVIDIA Tegra
 
 ### 리멤버 입력용
 
 업무 설명 - 전체 공개용:
-· Embedded Audio / DSP SDK 플랫폼 포팅 및 통합 수행
-· Automotive (차량용 헤드유닛 & 외장 앰프) 오디오/AI SDK 포팅 및 최적화 (TCC8050, ADSP-21569, NVIDIA Tegra X2, Audio Weaver)
-· TWS & AI Edge (QCC/Airoha/BES/Bluetrum/Goodix/GAP9) SDK 포팅, Fixed-point/SIMD 최적화 및 안정화
-· Android App/Framework/HAL/DSP 전 레이어 오디오 SDK 이식 및 지연(Latency) 분석
-· Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 툴 설계/개발
+· 제품 요구사항 분석부터 SDK 개발, 플랫폼 통합, 검증·릴리즈까지 수행
+· Android·TWS DSP·AAOS/Embedded Linux·AI Edge 환경의 SDK 개발·통합·검증
+· 성능·자원 제약 분석, 테스트 자동화 및 CI/CD 기반 빌드·릴리즈 운영
 
 업무 설명 - 채용 담당자용:
-· Automotive 오디오 SDK 포팅 & 통합: 차량용 헤드유닛(Telechips TCC8050 Subcore, NVIDIA Tegra X2) 및 외장 앰프(ADI SHARC+ DSP, Audio Weaver) 환경에 오디오/AI SDK를 포팅하고 안정화했습니다. DSP Library 기반 연산 최적화와 메모리 배치를 통해 리소스 제약(Memory, MIPS)을 극복했습니다.
-· TWS & AI Edge SDK 포팅 & 최적화: QCC514x/515x/517x, Airoha AB1565/1577/1585, BES2600YP, Bluetrum BT8951, Goodix PoC 및 GAP9(AI Edge) 타겟에 SDK를 이식했습니다. Fixed-point 변환 및 SIMD 최적화를 통해 초저전력/제약 환경에서의 동작 신뢰성을 확보했습니다.
-· Android Audio SDK: Android App/Framework/HAL/DSP 전 레이어에서 SDK 적용 후보와 지연/제약 구간을 분석하고, Qualcomm Hexagon DSP 및 HAL/Effect 적용 기준과 검증 절차를 정리했습니다.
-· Automotive 튜닝 툴: 실차 환경에서의 오디오 파라미터 튜닝 절차를 표준화하고 고객사 기술 대응을 용이하게 하기 위해 Python 기반 튜닝 UI 및 제어 도구를 설계/개발했습니다.
+· Cross-platform SDK 개발·통합: 제품 요구사항과 타깃 제약을 분석해 공통 SDK를 개발하고 Android, TWS DSP, AAOS/Embedded Linux, AI Edge 환경에 통합·검증했습니다. 플랫폼별 지연·메모리·연산량 제약을 분석해 적용 기준을 정리했습니다.
+· 품질·릴리즈: Python 기반 제어 도구와 테스트 자동화, CI/CD 기반 빌드·검증·릴리즈 절차를 운영했습니다.
 
 ## 2018.09 - 2021.03 | 현대에이치티
 
@@ -96,12 +91,12 @@ C/C++, Python, Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Au
 ## 2013.10 - 2015.07 | 한국해양기상기술
 
 회사/직무: Android/Web/시스템 구축  
-역할: 앱/웹 개발 및 구축 PM | 기여도: 프로젝트별 개발/PM 수행
+역할: 앱·웹 개발 및 시스템 구축 | 기여도: 프로젝트별 개발/PM 수행
 
 주요 내용:
 - 기상/해양 정보 제공을 위한 Android 앱(여우비 v1/v2, 마린통)을 개발하고 서비스 론칭
 - 기상청 기후예측 업무의 로그 확인/보고 과정을 지원하기 위해 웹 모니터링 시스템을 개발하고 로그 파싱·가시화·보고 기능 구현
-- 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축과 운영/교육을 수행하여 시스템 도입 및 사용 정착 지원
+- 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축·교육을 수행하여 시스템 도입 지원
 
 ### 리멤버 입력용
 
@@ -109,36 +104,34 @@ C/C++, Python, Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Au
 · Android 앱과 웹 기반 모니터링 시스템 개발
 · 기상·해양 정보 Android 앱 개발 및 서비스 론칭
 · 기상청 기후예측 웹 모니터링 시스템 개발, 로그 파싱, 데이터 가시화, 보고 기능 구현
-· 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축, 운영, 사용자 교육 지원
+· 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축 및 사용자 교육 지원
 · 공공/기상 도메인 시스템 구축, 운영 지원, 사용자 교육, 프로젝트 관리(PM) 수행
 
 업무 설명 - 채용 담당자용:
 · Android 앱 개발: 여우비 v1/v2, 마린통 등 기상·해양 정보 제공 Android 앱을 개발하고 서비스 론칭을 수행했습니다. 기상/해양 데이터 제공 흐름과 모바일 UI를 구현하며 공공 정보 서비스 운영 경험을 쌓았습니다.
 · 웹 모니터링 시스템: 기상청 기후예측 업무를 지원하는 웹 모니터링 시스템을 개발했습니다. 로그 파싱, 데이터 가시화, 보고 기능을 구현해 운영자가 로그 확인과 보고 업무를 효율적으로 수행할 수 있도록 지원했습니다.
-· 시스템 구축/운영: 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축, 운영, 사용자 교육을 담당했습니다. 공공 시스템 구축 과정에서 개발, 운영 지원, 교육, 프로젝트 관리(PM) 역할을 함께 수행했습니다.
+· 시스템 구축: 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축과 사용자 교육을 담당했습니다. 공공 시스템 구축 과정에서 개발, 교육, 프로젝트 관리(PM) 역할을 함께 수행했습니다.
 · 개발/PM 병행: Android 앱, 웹 시스템, 운영 시스템 구축 프로젝트에서 요구사항 정리, 개발, 배포, 사용자 교육, 운영 지원까지 수행했습니다.
 
 ## 2009.12 - 2013.10 | 휴맥스
 
 회사/직무: 일본향 셋탑박스 APP/MW 개발  
-역할: APP/Middleware 엔지니어 | 기여도: 모듈 개발 및 통합/디버깅 수행
+역할: APP/Middleware 엔지니어 | 기여도: 모듈 개발 수행
 
 주요 내용:
-- 일본향 위성/차량/블루레이/PVR/IP 셋탑박스 제품의 APP/Middleware 모듈 개발 및 통합 수행
-- EPG, A/V Control, 방송 데이터 파싱, OIPF/브라우저 연동, Android 연동 기능 개발
-- 제품별 통합/디버깅/테스트 자동화 경험을 통해 임베디드 상용 제품 개발과 릴리즈 대응 기본기 확보
+- 차량용·블루레이·PVR·IP 셋탑박스의 APP/Middleware 개발
+- EPG, Program Info, Menu, Install, 방송 데이터 파싱·관리, AV Control 기능 개발
+- 공용 Middleware 이식, OIPF JavaScript API와 Android 연동 기능 개발
 
 ### 리멤버 입력용
 
 업무 설명 - 전체 공개용:
-· 일본향 셋탑박스 APP/Middleware 개발
-· Embedded C/C++ 기반 상용 임베디드 제품 기능 개발, 통합, 디버깅, 릴리즈 대응
-· EPG, A/V Control, 방송 데이터 파싱, OIPF/브라우저 연동, Android 연동 기능 개발
-· 위성, 차량, 블루레이, PVR, IP 셋탑박스 제품군 대응
-· 제품별 통합 테스트, 결함 분석, 재현, 디버깅, 테스트 자동화 및 릴리즈 대응 수행
+· 차량용·블루레이·PVR·IP 셋탑박스 APP/Middleware 개발
+· Embedded C/C++ 기반 상용 임베디드 제품 기능 개발
+· EPG, Program Info, Menu, Install, 방송 데이터 파싱·관리, AV Control 기능 개발
+· 공용 Middleware 이식, OIPF JavaScript API와 Android 연동 기능 개발
 
 업무 설명 - 채용 담당자용:
-· 셋탑박스 APP/Middleware: 일본향 위성, 차량, 블루레이, PVR, IP 셋탑박스 제품의 APP/Middleware 개발에 참여했습니다. Embedded C/C++ 기반으로 상용 임베디드 제품 기능 개발, 통합, 디버깅, 릴리즈 대응을 수행했습니다.
-· 방송/미디어 기능 개발: EPG, A/V Control, 방송 데이터 파싱, PVR, OIPF/브라우저 연동, Android 연동 기능을 개발했습니다. 제품별 요구사항에 맞춰 방송 데이터 처리와 미디어 제어 기능을 통합했습니다.
-· 제품화/릴리즈 대응: 제품별 통합 테스트, 결함 분석, 재현, 디버깅, 테스트 자동화를 수행했습니다. 다양한 셋탑박스 제품군을 경험하며 상용 임베디드 제품 개발, 미디어 기능 통합, 릴리즈 대응 기본기를 확보했습니다.
-· 커리어 기반 역량: 초기 경력부터 A/V Control, 방송 데이터, 미디어 기능, 임베디드 제품 통합을 다루며 이후 Android Audio, DSP SDK, 미디어 경로 통합 업무로 이어지는 제품화 기반을 쌓았습니다.
+· 셋탑박스 APP/Middleware: 차량용, 블루레이, PVR, IP 셋탑박스 제품의 APP/Middleware 개발에 참여했습니다. Embedded C/C++ 기반으로 상용 임베디드 제품 기능을 개발했습니다.
+· 방송/미디어 기능 개발: EPG, Program Info, Menu, Install, 방송 데이터 파싱·관리, AV Control 기능을 개발했습니다.
+· 공용 MW·연동 기능 개발: 공용 Middleware 이식과 OIPF JavaScript API, Android 연동 기능을 개발했습니다.

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>김승범 | 경력기술서</title>
-    <meta name="description" content="김승범 경력기술서 - Embedded Platform / System Integration 및 제약 환경 최적화" />
+    <meta name="description" content="김승범 경력기술서 - Embedded / Platform Software 및 제품 통합" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,16 +20,16 @@
     <main class="resume" id="career-doc">
       <header class="hero">
         <div>
-          <p class="eyebrow">SENIOR EMBEDDED PLATFORM / SYSTEM INTEGRATION ENGINEER</p>
+          <p class="eyebrow">SENIOR EMBEDDED / PLATFORM SOFTWARE ENGINEER</p>
           <h1>김승범 경력기술서</h1>
           <p class="subtitle">
-            Linux, Android, RTOS 기반 임베디드 제품에서 <strong>소프트웨어 개발, 제품 통합, 검증·릴리즈</strong>를 수행해온 16년차 엔지니어의 경력기술서입니다.
-            최근에는 <strong>이기종 SoC/DSP 타깃의 SDK 포팅·최적화 및 제품화</strong>를 주로 수행했습니다.
+            상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 17년차 엔지니어의 경력기술서입니다.
+            최근에는 다양한 OS·SoC 환경에서 <strong>SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈</strong>를 수행했습니다.
           </p>
         </div>
         <div class="meta">
           <p>서울, 대한민국</p>
-          <p>총 경력: 16년 (2009.12 - 현재)</p>
+          <p>총 경력: 17년 (2009.12 - 현재)</p>
           <p><a href="mailto:sbkim0729@gmail.com">sbkim0729@gmail.com</a></p>
           <p>입사 가능 시점: 협의 가능</p>
           <button class="print-btn" onclick="window.print()">PDF 경력기술서: PDF로 저장</button>
@@ -39,11 +39,10 @@
       <section>
         <h2>핵심 역량 요약</h2>
         <ul class="stack-list">
-          <li><strong>기술 역할</strong>: 다중 하드웨어·제품 환경에서 SDK를 포팅하고 시스템 통합부터 검증·릴리즈까지 수행하는 <strong>Embedded Platform / System Integration Engineer</strong></li>
+          <li><strong>기술 역할</strong>: 상용 임베디드 제품과 플랫폼 소프트웨어를 개발하고, 최근에는 SDK 개발·통합·검증을 수행하는 <strong>Embedded / Platform Software Engineer</strong></li>
           <li><strong>핵심 강점</strong>: 메모리·연산량·지연 제약을 분석해 <strong>통합 지점 정의, 최적화 방향 수립, 검증 기준화</strong> 수행</li>
-          <li><strong>최근 경험</strong>: <strong>Telechips·Qualcomm SA 계열 IVI</strong> 및 <strong>ADI SHARC+ DSP</strong> 기반 차량용 제품 환경에서 SDK 포팅·통합 및 동작 안정화</li>
-          <li><strong>도구/현장 대응</strong>: Python 기반 파라미터 튜닝 UI·제어 도구를 구축해 현장 검증 및 고객 대응 절차 표준화</li>
-          <li><strong>도메인 전문성</strong>: 오디오/DSP, Android Framework/HAL, AI 추론 SDK, Embedded Linux 제품화 경험 보유</li>
+          <li><strong>최근 경험</strong>: Android·TWS DSP·AAOS/Embedded Linux·AI Edge 환경에서 공통 SDK 개발·통합·검증 및 동작 안정화</li>
+          <li><strong>품질·릴리즈</strong>: 테스트 자동화와 CI/CD 기반 빌드·검증·릴리즈 절차 운영</li>
         </ul>
       </section>
 
@@ -51,93 +50,143 @@
         <h2>프로젝트 상세</h2>
 
         <article class="detail-block">
-          <h3>1) 차량용 IVI 플랫폼 통합</h3>
-          <p><strong>회사/기간</strong>: 가우디오랩, 2024.01 - 현재</p>
-          <p class="role-meta"><strong>결과</strong>: <strong>Telechips·Qualcomm SA 계열 IVI 헤드유닛(내장 앰프)</strong> 및 <strong>ADI SHARC+ DSP 외장 앰프</strong> 타깃에 임베디드 SDK를 제품 적용하고, 실차 검증·현장 튜닝·릴리즈 대응 수행.</p>
+          <h3>1) Cross-platform SDK 개발 및 제품화</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2021.03 - 현재</p>
+          <p class="role-meta"><strong>결과</strong>: 서로 다른 OS·SoC 환경에서 공통 오디오 SDK의 개발·통합·검증 기준을 정리하고, 제품 적용과 릴리즈 재현성을 확보.</p>
           <ul>
-            <li><strong>프로젝트 배경</strong>: 차량용 헤드유닛·외장 앰프별 플랫폼과 리소스 제약이 다른 환경에서 공통 SDK의 제품 적용성 확보</li>
-            <li><strong>기술</strong>: C/C++, Telechips SoC, Qualcomm SA, ADI SHARC+ DSP, Audio Weaver, SigmaStudio, GStreamer, Python, UART</li>
-            <li><strong>IVI 헤드유닛</strong>: Telechips·Qualcomm SA 계열 타깃의 SDK 이식, 오디오 블록 구동 제어 및 미디어 경로 동작 안정화</li>
-            <li><strong>외장 앰프</strong>: ADI SHARC+ DSP·Audio Weaver 환경에서 SDK 통합, 연산 최적화와 메모리 배치 조정으로 리소스 제약 대응</li>
-            <li><strong>AI SDK</strong>: NVIDIA Tegra SoC 타깃의 AI 추론 SDK 포팅 및 GStreamer 재생 경로 통합</li>
-            <li><strong>검증 도구</strong>: Python 기반 파라미터 제어 UI를 구축해 현장 검증·튜닝 절차 지원</li>
-            <li><strong>기술적 결과</strong>: Memory/MIPS 제약을 분석해 타깃별 적용 기준을 정리하고 실차 구동 안정화 및 현장 대응 체계 확보</li>
+            <li><strong>배경/과제</strong>: Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge처럼 OS·하드웨어·자원 제약이 다른 제품 환경에서 공통 SDK의 적용성 확보</li>
+            <li><strong>책임 범위</strong>: 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계하며, 플랫폼별 통합·검증 방식을 정의</li>
+            <li><strong>핵심 구현</strong>: Android App/Framework/HAL, TWS DSP, AAOS IVI, AI Edge의 오디오 경로와 입출력 제약을 분석해 SDK 통합과 동작 안정화 수행</li>
+            <li><strong>성능·품질</strong>: Memory/MIPS·지연·버퍼·호환성 이슈를 분석하고 Fixed-point·SIMD·메모리 배치 최적화, 단위/회귀 테스트와 CI/CD 기반 빌드·검증 적용</li>
+            <li><strong>결과</strong>: 타깃별 적용·검증 기준과 릴리즈 절차를 정리해 제품 동작 안정성과 릴리즈 재현성 확보</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>2) TWS·AI Edge SDK 통합 및 최적화</h3>
+          <h3>1-1) 차량용 내장 앰프 헤드유닛 SDK 개발·포팅</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2026년 - 현재</p>
+          <p class="role-meta"><strong>결과</strong>: Qualcomm SA 계열 양산 대상 및 Telechips AAOS 헤드유닛 프로젝트에서 오디오 SDK 개발·포팅과 동작 안정화 수행.</p>
+          <ul>
+            <li><strong>배경/과제</strong>: Qualcomm SA 계열 양산 대상 및 Telechips AAOS 기반의 각 내장 앰프 헤드유닛 환경에서 오디오 SDK의 제품 적용성 확보</li>
+            <li><strong>책임 범위</strong>: 타깃별 SDK 기능 개발·포팅, 오디오 경로 통합, 동작 안정화와 검증 수행</li>
+            <li><strong>핵심 구현</strong>: 각 헤드유닛의 오디오 경로와 플랫폼 제약을 분석해 SDK 적용 방식 구현</li>
+            <li><strong>튜닝 도구</strong>: 전용 제어·파라미터 튜닝 도구를 개발해 헤드유닛 타깃 검증과 튜닝에 활용</li>
+            <li><strong>양산 적용</strong>: Qualcomm SA 헤드유닛의 양산 적용을 위한 SDK 개발·포팅과 검증 수행</li>
+            <li><strong>성능/검증</strong>: Memory/MIPS·지연·버퍼 이슈를 분석하고 타깃별 검증·릴리즈 절차 수행</li>
+          </ul>
+        </article>
+
+        <article class="detail-block">
+          <h3>1-2) 차량용 외장 앰프 SDK 통합 및 최적화</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2025년</p>
+          <p class="role-meta"><strong>결과</strong>: ADI SHARC+ DSP·Audio Weaver 기반 외장 앰프 환경에서 SDK 통합·검증 PoC를 완료하고, 자원 제약 환경의 적용 기준 확보.</p>
+          <ul>
+            <li><strong>배경/과제</strong>: 외장 앰프 DSP 환경의 연산·메모리 제약 속에서 공통 오디오 SDK의 제품 적용성 확보</li>
+            <li><strong>책임 범위</strong>: ADI SHARC+ DSP·Audio Weaver 환경의 SDK 기능 개발·통합 방식과 검증 기준을 정리하고 제품 동작 안정화 수행</li>
+            <li><strong>성능 최적화</strong>: Memory/MIPS·지연·버퍼 이슈를 분석하고, 자원 제약에 맞춘 최적화 적용</li>
+            <li><strong>튜닝 도구</strong>: 전용 제어·파라미터 튜닝 도구를 개발해 외장 앰프 타깃의 검증과 튜닝에 활용</li>
+            <li><strong>결과</strong>: 외장 앰프 타깃의 SDK 통합·검증 PoC를 완료하고 자원 제약 환경의 적용 기준 확보</li>
+          </ul>
+        </article>
+
+        <article class="detail-block">
+          <h3>1-3) AI 추론 SDK 개발 및 제품화</h3>
+          <p><strong>회사/기간</strong>: 가우디오랩, 2024년</p>
+          <p class="role-meta"><strong>결과</strong>: 다양한 CPU·GPU·AI Edge 환경에서 동작하는 머신러닝 추론 SDK를 개발·통합하고 실제 제품 환경에 적용.</p>
+          <ul>
+            <li><strong>배경/과제</strong>: Mac·Windows·Mobile CPU, AI Processor, GPU처럼 실행 환경이 다른 타깃에서 추론 SDK의 적용성 확보</li>
+            <li><strong>책임 범위</strong>: 사내 머신러닝 추론 SDK를 개발하고 타깃별 미디어 경로와 입출력 방식을 연동</li>
+            <li><strong>핵심 구현</strong>: Mac·Windows·Android/iOS CPU SDK의 WebRTC 연동, GAP9 AI Processor 통합, NVIDIA Tegra의 GStreamer Element 통합 수행</li>
+            <li><strong>최적화</strong>: 모델 Graph 구현과 PyTorch·ONNX·TensorRT 기반 추론 방식 검토·최적화 수행</li>
+            <li><strong>제품 적용</strong>: WebRTC 연동 환경과 GStreamer 기반 NVIDIA Tegra 보드 환경에 SDK를 적용해 제품 동작 검증</li>
+          </ul>
+        </article>
+
+        <article class="detail-block">
+          <h3>1-4) TWS SDK 통합 및 최적화</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2021.09 - 2023.12</p>
-          <p class="role-meta"><strong>결과</strong>: 이기종 TWS DSP 및 저전력 AI 제품 타깃에 SDK를 적용하고, 검증·릴리즈 및 튜닝 대응 수행.</p>
+          <p class="role-meta"><strong>결과</strong>: 이기종 TWS DSP 타깃의 통합 버전을 릴리즈하고, Airoha·QCC 일부 타깃에서는 제품 탑재 후 양산까지 진행.</p>
           <ul>
-            <li><strong>프로젝트 배경</strong>: 이기종 TWS DSP 및 AI Edge 타깃에서 TWS·AI SDK의 제품 적용성을 확보하기 위한 포팅·통합과 리소스 최적화 수행</li>
-            <li><strong>기술</strong>: C/C++, Qualcomm QCC 계열, Airoha, BES, Bluetrum, GAP9</li>
-            <li><strong>TWS DSP</strong>: 이기종 타깃의 SDK 통합 지점을 정의하고 IMU 헤드 트래킹, 지연·버퍼 동작 분석 수행</li>
-            <li><strong>AI Edge</strong>: GAP9 타깃의 AI 추론 SDK 포팅과 입출력 버퍼 연동 수행</li>
-            <li><strong>최적화</strong>: Fixed-point 변환과 SIMD 최적화로 제약 환경의 연산 안정성 개선</li>
-            <li><strong>기술적 결과</strong>: 이기종 TWS·AI Edge 제품 타깃의 통합 버전을 릴리즈하고 튜닝·검증 대응 흐름 확보</li>
+            <li><strong>배경/과제</strong>: QCC·Airoha·BES·Bluetrum 등 이기종 TWS DSP 환경의 리소스 제약 속에서 SDK 적용성 확보</li>
+            <li><strong>책임 범위</strong>: 타깃별 SDK 기능 개발과 통합 지점·입출력 버퍼 연동 방식을 구현하고, 플랫폼별 동작 차이와 성능 지표를 분석</li>
+            <li><strong>핵심 구현</strong>: TWS DSP에서 IMU 헤드 트래킹과 지연·버퍼 동작을 분석하고 SDK 입출력 버퍼를 연동</li>
+            <li><strong>최적화/검증</strong>: Fixed-point 변환과 SIMD 최적화로 연산 안정성을 개선하고, 타깃별 통합 버전의 튜닝·검증·릴리즈 수행</li>
+            <li><strong>제품 적용</strong>: Airoha·QCC 일부 타깃에 SDK를 제품 탑재해 양산까지 진행</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>3) Android 플랫폼 SDK 통합 및 지연 분석</h3>
+          <h3>1-5) Android 플랫폼 SDK 통합 및 지연 분석</h3>
           <p><strong>회사/기간</strong>: 가우디오랩, 2021.03 - 2021.09</p>
-          <p class="role-meta"><strong>결과</strong>: Android App/Framework/HAL/DSP <strong>전 레이어</strong>에서 SDK 적용 지점을 정의하고, DSP/HAL/Effect 통합 의사결정 기준을 정립.</p>
+          <p class="role-meta"><strong>결과</strong>: Android App/Framework/HAL/DSP 전 레이어의 SDK 적용 지점과 통합 의사결정 기준을 정립.</p>
           <ul>
-            <li><strong>프로젝트 배경</strong>: SDK 적용 위치에 따라 Android 오디오 경로의 지연·기능 제약·유지보수 범위가 달라지는 문제 분석</li>
-            <li><strong>기술</strong>: C/C++, Android Audio Effect, Audio HAL, AOSP Framework, Qualcomm Hexagon DSP</li>
-            <li><strong>분석</strong>: App·Framework·HAL·DSP 레이어별 지연 유발 구간과 통합 제약을 분해해 비교</li>
-            <li><strong>의사결정</strong>: DSP·HAL·Audio Effect별 적용 기준을 문서화</li>
-            <li><strong>검증</strong>: Oboe/ExoPlayer 기반 재생 경로를 검증해 통합 의사결정 기준 확보</li>
+            <li><strong>배경/과제</strong>: SDK 적용 위치에 따라 Android 오디오 경로의 지연·기능 제약·유지보수 범위가 달라지는 문제 분석</li>
+            <li><strong>책임 범위</strong>: Android 플랫폼용 SDK 기능을 개발하고, App·AOSP Framework/Audio HAL·Qualcomm Hexagon DSP 레이어별 지연 유발 구간과 통합 제약을 분해·비교</li>
+            <li><strong>핵심 판단</strong>: DSP·HAL·Audio Effect별 적용 범위와 제약을 정리해 통합 기준을 문서화</li>
+            <li><strong>검증/결과</strong>: Oboe/ExoPlayer 기반 재생 경로를 검증해 레이어별 통합 의사결정 기준 확보</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>4) Linux/Android IoT 플랫폼 제품화</h3>
+          <h3>2) Linux/Android IoT 플랫폼 제품화</h3>
           <p><strong>회사/기간</strong>: 현대에이치티, 2018.09 - 2021.03</p>
-          <p class="role-meta"><strong>결과</strong>: 기존 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 단독 제품화하고, 다기기 제어 병목을 완화해 출시 대응.</p>
+          <p class="role-meta"><strong>결과</strong>: 기존 로컬 월패드를 해외향 홈 IoT 연동 모델로 단독 제품화하고, 다기기 제어 병목을 완화해 출시 대응.</p>
           <ul>
-            <li><strong>프로젝트 배경</strong>: 로컬 중심 제품을 해외향 IoT 연동 모델로 전환하면서 장치 제어·서버 API·사용자 기능의 통합 검증 필요</li>
-            <li><strong>기술</strong>: C/C++, Embedded Linux, Android, REST, MQTT, SIP, RS-485</li>
-            <li><strong>제품화</strong>: 해외향 모델의 분석·설계·개발·배포를 단독 수행하고 REST/MQTT/SIP 기반 플랫폼 연동 구현</li>
-            <li><strong>병목 개선</strong>: RS-485 제어·상태 Queue를 분리해 다기기 동시 제어 상황의 병목 완화</li>
-            <li><strong>서버/서비스</strong>: Push·방범·시나리오·도어벨 서비스를 개발하고 API Gateway/Push 분리 기반 MSA 전환에 참여</li>
-            <li><strong>출시 대응</strong>: 월패드와 HT Home 플랫폼 연동을 안정화해 해외향 제품 출시 대응</li>
+            <li><strong>배경/과제</strong>: 로컬 중심 월패드를 해외향 홈 IoT 연동 모델로 전환하면서 장치 제어·서버 API·사용자 기능의 통합 필요</li>
+            <li><strong>책임 범위</strong>: 해외향 Linux/Android 월패드 모델의 분석·설계·개발·배포·매뉴얼 작성까지 단독 수행</li>
+            <li><strong>핵심 구현</strong>: REST/MQTT 기반 데이터 연동과 SIP 영상통화 연동을 구현하고, Android Framework 및 시스템 애플리케이션 기능 개발</li>
+            <li><strong>병목 개선</strong>: RS-485 제어·상태 Queue를 분리해 다기기 동시 제어에서 명령 처리 대기를 완화</li>
+            <li><strong>서버/서비스</strong>: Push·방범·시나리오·도어벨·SIP 기능 개발과 API Gateway/Push 분리 기반 MSA 전환에 참여</li>
+            <li><strong>결과</strong>: Android 월패드와 홈 IoT 플랫폼 연동을 안정화해 해외향 제품 출시 대응</li>
           </ul>
         </article>
 
         <article class="detail-block">
-          <h3>5) 멀티플랫폼 개발 환경 구축/운영성 개선</h3>
+          <h3>3) 멀티플랫폼 개발도구 구축</h3>
           <p><strong>회사/기간</strong>: 에스코어, 2015.08 - 2018.08</p>
-          <p class="role-meta"><strong>결과</strong>: Tizen Studio 설치/패키지 관리 체계를 개선하고 Windows/Ubuntu/macOS 개발 환경의 운영성을 높임.</p>
+          <p class="role-meta"><strong>결과</strong>: Windows·Ubuntu·macOS에서 일관된 Tizen Studio 설치·업데이트·패키지 관리와 CLI 개발 흐름을 제공.</p>
           <ul>
-            <li><strong>프로젝트 배경</strong>: 멀티플랫폼 개발도구의 설치·업데이트·삭제 과정에서 발생하는 배포와 사용자 지원 복잡도 개선</li>
-            <li><strong>기술</strong>: Java, TypeScript, NSIS Script, Windows, Ubuntu, macOS, GUI/CLI</li>
-            <li>Installer/Uninstaller/Package Manager 구현 및 Windows/Ubuntu/macOS 설치·업데이트·삭제 경로 안정화</li>
-            <li>VS Code Extension으로 Tizen CLI 기반 개발 플로우를 연동해 개발도구 사용성 개선</li>
+            <li><strong>배경/과제</strong>: 여러 OS에서 설치·업데이트·삭제와 패키지 관리 방식이 달라 개발도구 배포와 사용 흐름의 일관성 확보 필요</li>
+            <li><strong>책임 범위</strong>: Java·NSIS Script 기반 Installer/Uninstaller/Package Manager와 공통 유틸리티 개발</li>
+            <li><strong>핵심 구현</strong>: Windows·Ubuntu·macOS의 GUI/CLI 설치·업데이트·삭제, 패키지·Extension·Repository 관리 기능 구현</li>
+            <li><strong>결과</strong>: TypeScript 기반 VS Code Extension으로 Tizen CLI의 프로젝트 생성·빌드·패키징 흐름을 연동해 개발 환경 사용성 개선</li>
+          </ul>
+        </article>
+
+      </section>
+
+      <section>
+        <h2>이전 제품·시스템 개발 경험</h2>
+
+        <article class="detail-block">
+          <h3>한국해양기상기술 | Android·Linux 시스템 및 웹 모니터링 구축</h3>
+          <p><strong>회사/기간</strong>: 한국해양기상기술, 2013.10 - 2015.07</p>
+          <p class="role-meta"><strong>결과</strong>: Android 앱, Linux 기반 운영 시스템, 웹 모니터링을 연결해 기상·해양 정보 서비스의 구축·운영 기반 마련.</p>
+          <ul>
+            <li><strong>책임 범위</strong>: Android 앱 개발, Linux 기반 ROSE 시스템 구축·교육, 웹 모니터링 기능 개발 수행</li>
+            <li><strong>Android</strong>: 기상·해양 정보 앱의 데이터 파싱·표시와 센서·카메라·갤러리 연동 기능 개발</li>
+            <li><strong>Linux·웹</strong>: Linux 소스 패키지 설치와 ROSE 작업 스케줄 환경을 구축하고, 로그 파싱·시각화·관리 기능을 구현</li>
+          </ul>
+        </article>
+
+        <article class="detail-block">
+          <h3>휴맥스 | 상용 셋탑박스 APP/Middleware 개발</h3>
+          <p><strong>회사/기간</strong>: 휴맥스, 2009.12 - 2013.10</p>
+          <p class="role-meta"><strong>결과</strong>: 차량용·블루레이·PVR·IP 셋탑박스 제품군에서 APP/Middleware 기능을 개발하고 공용 Middleware 적용 기반 마련.</p>
+          <ul>
+            <li><strong>책임 범위</strong>: 셋탑박스 APP/Middleware 기능 개발과 제품별 기능 적용 수행</li>
+            <li><strong>핵심 구현</strong>: EPG·Program Info·Menu·Install, 방송 데이터 파싱·관리, AV Control 기능 개발</li>
+            <li><strong>플랫폼 적용</strong>: 일본향 전용 Middleware를 공용 Middleware로 이식하고, OIPF JavaScript API와 Android 연동 기능 개발</li>
           </ul>
         </article>
       </section>
 
       <section>
-        <h2>기술 요약</h2>
+        <h2>기술 스택</h2>
         <ul class="stack-list">
-          <li><strong>언어/스크립팅</strong>: C/C++, Python</li>
-          <li><strong>임베디드 플랫폼</strong>: Embedded Linux, Android (App / Framework / HAL), RTOS, Bare-metal</li>
-          <li><strong>플랫폼 통합</strong>: SDK 포팅·통합, 미들웨어, 시스템 검증·릴리즈</li>
-          <li><strong>성능 최적화</strong>: 메모리·연산량 최적화, 지연/버퍼 분석, Fixed-point, SIMD</li>
-          <li><strong>품질/자동화</strong>: Jenkins, cppcheck, Valgrind/ASan, 단위/통합 테스트 자동화</li>
-          <li><strong>오디오/DSP 도구</strong>: GStreamer, WebRTC, Audio Weaver, SigmaStudio</li>
-          <li><strong>타깃 플랫폼</strong>: Telechips SoC, Qualcomm SA/QCC, Airoha, BES, Bluetrum, ADI SHARC+ DSP, NVIDIA Tegra, GAP9</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>기타 주요 경험</h2>
-        <ul class="stack-list">
-          <li><strong>에스코어 Windows 애플리케이션</strong> (2018): AD 인증 기반 트레이 앱 및 대용량 데이터 차트 프로토타입 개발.</li>
-          <li><strong>한국해양기상기술</strong> (2013 - 2015): 여우비/마린통 Android 앱 개발, 기상청 웹 모니터링 및 ROSE 구축/운영.</li>
-          <li><strong>휴맥스</strong> (2009 - 2013): 일본향 셋탑박스 APP/MW, EPG/A/V/OIPF 연동 및 상용화 대응.</li>
+          <li><strong>언어/스크립팅</strong>: C/C++, Java, Python</li>
+          <li><strong>임베디드 플랫폼</strong>: AAOS (Android Automotive OS), Embedded Linux, Android (App / Framework / HAL), RTOS, Bare-metal</li>
+          <li><strong>프레임워크/도구</strong>: GStreamer, WebRTC, Audio Weaver, SigmaStudio</li>
         </ul>
       </section>
 

@@ -1,50 +1,47 @@
 [포지셔닝]
-Senior Embedded Audio / DSP SDK Integration Engineer
-Automotive, TWS, Android, Embedded Linux 환경에서 오디오/DSP SDK를 실제 제품 타겟에 통합하고 메모리·MIPS 제약 분석, 튜닝, 검증·릴리즈까지 수행해온 16년차 엔지니어입니다. 최근에는 차량용 헤드유닛 및 외장 앰프 기반 Automotive 오디오 SDK 포팅 및 최적화를 중점적으로 수행하고 있습니다.
+Senior Embedded / Platform Software Engineer
+상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 17년차 엔지니어입니다. 최근에는 다양한 OS·SoC 환경에서 SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈를 수행했습니다.
 
 [경력 요약]
 
 - 기간: 2021.03 - 현재
-  회사/직무: 가우디오랩 | Embedded Audio / DSP SDK 개발 및 플랫폼 포팅
-  역할: SDK 플랫폼 포팅 및 통합 엔지니어 | 기여도: 60~100%
+  회사/직무: 가우디오랩 | SDK 개발 및 플랫폼 통합
+  역할: SDK 개발·검증 및 플랫폼 통합 엔지니어
   주요 내용:
-  - 차량용 헤드유닛 (Telechips TCC8050 Subcore) 환경 오디오 SDK 포팅 및 동작 안정화
-  - 차량용 외장 앰프 (ADI SHARC+ ADSP-21569/21835) 및 Audio Weaver 기반 SDK 통합 및 연산/메모리 최적화
-  - 차량용 헤드유닛 (NVIDIA Tegra X2) 타겟 AI Inference SDK 포팅 및 미디어 재생 경로 통합
-  - Python 기반 실차 오디오 파라미터 튜닝 UI 및 제어 도구 설계/개발
-  - 이기종 TWS DSP(QCC514x/515x/517x, Airoha, BES, Bluetrum, Goodix PoC) 및 GAP9 (AI Edge) 환경 SDK 포팅
-  - 제한된 하드웨어 리소스 극복을 위한 Fixed-point 변환 및 SIMD 최적화 적용
-  - Android App, Framework(Audio Effect), HAL, Qualcomm Hexagon DSP 전 레이어 SDK 이식 및 지연 분석
+  - 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계·모듈화
+  - Android (App/Framework/HAL)·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 타깃의 오디오 경로에 SDK를 통합하고 동작 안정화
+  - 지연·메모리·연산량·버퍼·호환성 문제를 분석·최적화해 제약 환경의 제품 적용성 확보
+  - 단위/회귀 테스트와 CI/CD 기반 빌드·패키징·검증·릴리즈 절차를 운영
 
 - 기간: 2018.09 - 2021.03
   회사/직무: 현대에이치티 | 월패드 플랫폼/서버 개발
-  역할: 플랫폼/서버 개발 엔지니어 | 기여도: 40~100% (프로젝트별 상이)
+  역할: 플랫폼/서버 개발 엔지니어
   주요 내용:
-  - 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하기 위해 Linux/Android 월패드와 HT Home 플랫폼 연동 제품화(REST/MQTT/SIP)
-  - 해외향 모델 1인 프로젝트로 분석-설계-개발-배포 전 과정을 수행해 출시 대응
+  - 로컬 월패드 모델을 해외향 IoT 서버 연동 모델로 전환하기 위해 Android 월패드와 홈 IoT 플랫폼 연동 제품화(REST/MQTT/SIP)
+  - 해외향 IoT 월패드 모델의 분석·설계·개발·배포·출시 대응을 단독 수행
   - 다기기 동시 제어 시 RS-485 병목이 발생하는 문제를 Queue 분리 구조로 개선해 제어 성능 저하 완화
   - Push/방범/시나리오/도어벨 서비스 개발 및 MSA 전환에 참여
 
 - 기간: 2015.08 - 2018.08
-  회사/직무: 에스코어 | Tizen 개발플랫폼
-  역할: 개발플랫폼 엔지니어 | 기여도: 40~60% (프로젝트별 상이)
+  회사/직무: 에스코어 | Tizen 개발 플랫폼
+  역할: 개발 플랫폼 엔지니어
   주요 내용:
-  - Tizen Studio Installer/Uninstaller/Package Manager 개발(Java, NSIS/Script)
-  - 멀티 플랫폼(Windows/Ubuntu/macOS) GUI/CLI 지원
-  - VS Code Extension(TypeScript) 기반 Tizen CLI 연동 자동화
+  - Tizen Studio Installer/Uninstaller/Package Manager와 공통 유틸리티 개발(Java, NSIS/Script)
+  - Windows/Ubuntu/macOS GUI/CLI 설치·업데이트·삭제 및 패키지 관리
+  - VS Code Extension(TypeScript) 기반 Tizen CLI의 프로젝트 생성·빌드·패키징 연동
 
 - 기간: 2013.10 - 2015.07
   회사/직무: 한국해양기상기술 | Android/Web/시스템 구축
-  역할: 앱/웹 개발 및 구축 PM | 기여도: 프로젝트별 개발/PM 수행
+  역할: 앱·웹 개발 및 시스템 구축
   주요 내용:
   - Android 앱(여우비 v1/v2, 마린통) 개발 및 서비스 론칭
   - 기상청 기후예측 웹 모니터링 시스템(로그 파싱/가시화/보고) 개발
-  - 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축 및 운영/교육 수행
+  - 기상청 슈퍼컴퓨터 스케줄링 시스템 ROSE 구축·교육 수행
 
 - 기간: 2009.12 - 2013.10
   회사/직무: 휴맥스 | 일본향 셋탑박스 APP/MW 개발
-  역할: APP/Middleware 엔지니어 | 기여도: 모듈 개발 및 통합/디버깅 수행
+  역할: 애플리케이션/미들웨어 엔지니어
   주요 내용:
-  - 위성/차량/블루레이/PVR/IP 셋탑박스 APP/MW 개발
-  - EPG/A/V Control/데이터 파싱, OIPF/브라우저 연동, Android 연동 수행
-  - 제품별 통합/디버깅/테스트 자동화로 임베디드 상용화 기본기 확보
+  - 차량용·블루레이·PVR·IP 셋탑박스의 APP/Middleware 개발
+  - EPG·Program Info·Menu·Install, 방송 데이터 파싱·관리, AV Control 기능 개발
+  - 공용 Middleware 이식, OIPF JavaScript API와 Android 연동 기능 개발
