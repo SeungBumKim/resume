@@ -14,7 +14,6 @@
 ### 1. Cross-platform SDK 개발 및 제품화
 
 회사/기간: 가우디오랩, 2021.03 - 현재
-기여도: 50~100%
 
 - 배경/과제: OS·하드웨어·자원 제약이 다른 제품 환경에서 공통 SDK의 적용성 확보
 - 책임 범위: 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계하며, 플랫폼별 통합·검증 방식을 정의
@@ -55,7 +54,6 @@
 #### 1-4. TWS SDK 통합 및 최적화
 
 회사/기간: 가우디오랩, 2021.09 - 2023.12
-기여도: 50~100% (프로젝트별 상이)
 
 - 배경/과제: 이기종 TWS DSP의 리소스 제약 속에서 SDK 적용성 확보
 - 책임 범위: 타깃별 SDK 기능 개발과 통합 지점·입출력 버퍼 연동 방식을 구현하고, 플랫폼별 동작 차이와 성능 지표 분석
@@ -65,7 +63,6 @@
 #### 1-5. Android Audio SDK 통합 및 지연 분석
 
 회사/기간: 가우디오랩, 2021.03 - 2021.09
-기여도: 80%
 
 - 배경/과제: Android 오디오 경로의 레이어별 지연·기능 제약·유지보수 범위가 달라 SDK 적용 위치에 따른 리스크가 큼
 - 책임 범위: Android 플랫폼용 SDK 기능을 개발하고, App·AOSP Framework/Audio HAL·Qualcomm Hexagon DSP 레이어별 지연 유발 구간과 통합 제약 비교
@@ -75,7 +72,6 @@
 ### 2. Linux/Android IoT 플랫폼 제품화
 
 회사/기간: 현대에이치티, 2018.09 - 2021.03
-기여도: 40~100% (프로젝트별 상이)
 
 - 배경/과제: 로컬 중심 월패드를 해외향 홈 IoT 연동 모델로 전환하면서 장치 제어·서버 API·사용자 기능의 통합 필요
 - 책임 범위: 해외향 Linux/Android 월패드 모델의 분석·설계·개발·배포·매뉴얼 작성을 단독 수행
@@ -86,7 +82,6 @@
 ### 3. 멀티플랫폼 개발도구 구축
 
 회사/기간: 에스코어, 2015.08 - 2018.08
-기여도: 40~60% (프로젝트별 상이)
 
 - 배경/과제: 여러 OS에서 설치·업데이트·삭제와 패키지 관리 방식이 달라 개발도구 사용 흐름의 일관성 확보 필요
 - 책임 범위: Installer/Uninstaller/Package Manager와 공통 유틸리티 개발
@@ -114,7 +109,6 @@
 ## 기술 요약
 
 - 핵심 역량: Embedded/Platform Software, SDK Development, System Integration, Middleware
-- 최적화: DSP Library, Fixed-point, SIMD, Memory/MIPS Optimization, Latency/Buffer Analysis
-- 플랫폼: AAOS (Android Automotive OS), Embedded Linux, Android, RTOS / Bare-metal, ADI SHARC+, Qualcomm SA, Qualcomm Hexagon DSP, Telechips, QCC, Airoha, NVIDIA Tegra X2, GAP9
-- 미디어/프레임워크: Audio Weaver, SigmaStudio, WebRTC, GStreamer, Android Audio HAL/Effect
-- 품질/릴리즈: 정적 분석, 동적 분석, 단위/통합 테스트 자동화, Jenkins 기반 빌드/배포
+- 언어/스크립팅: C/C++, Java, Python
+- 임베디드 플랫폼: AAOS, Embedded Linux, Android (App/Framework/HAL), RTOS, Bare-metal
+- 프레임워크/도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio

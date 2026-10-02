@@ -14,36 +14,38 @@ Senior Embedded / Platform Software Engineer
 - 제약 환경 성능 분석, 튜닝, 검증·릴리즈
 
 주요 기술:
-C/C++, Java, Python, AAOS (Android Automotive OS), Embedded Linux, Android, RTOS / Bare-metal, Android Audio HAL, Audio DSP, Qualcomm SA, ADI SHARC+, Telechips TCC8050, Qualcomm Hexagon DSP, QCC, Airoha, NVIDIA Tegra X2, GAP9, Audio Weaver, SigmaStudio, WebRTC, GStreamer
+- 언어/스크립팅: C/C++, Java, Python
+- 임베디드 플랫폼: AAOS, Embedded Linux, Android (App/Framework/HAL), RTOS, Bare-metal
+- 프레임워크/도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio
 
 ## 2021.03 - 현재 | 가우디오랩
 
 회사/직무: SDK 개발 및 플랫폼 통합
-역할: SDK 개발·검증 및 플랫폼 통합 엔지니어 | 기여도: 60~100%
+역할: SDK 개발·검증 및 플랫폼 통합 엔지니어
 
 주요 내용:
-- 제품 요구사항과 자원 제약을 분석해 공통 SDK를 개발하고 Android·TWS DSP·AAOS/Embedded Linux·AI Edge 타깃에 통합
+- 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계·모듈화
 - 지연·메모리·연산량 문제를 분석·최적화하고 테스트 자동화와 CI/CD 기반 검증·릴리즈 수행
-- 대표 적용: Android Framework/HAL, QCC·Airoha·BES, Qualcomm SA·Telechips IVI, ADI SHARC+, GAP9, NVIDIA Tegra
+- 대표 적용: Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 타깃의 오디오 SDK 통합 및 동작 안정화
 
 ### 리멤버 입력용
 
 업무 설명 - 전체 공개용:
-· 제품 요구사항 분석부터 SDK 개발, 플랫폼 통합, 검증·릴리즈까지 수행
+· 타깃 요구사항 분석부터 SDK 구현·개발, Public API 설계, 플랫폼 통합, 검증·릴리즈까지 수행
 · Android·TWS DSP·AAOS/Embedded Linux·AI Edge 환경의 SDK 개발·통합·검증
 · 성능·자원 제약 분석, 테스트 자동화 및 CI/CD 기반 빌드·릴리즈 운영
 
 업무 설명 - 채용 담당자용:
-· Cross-platform SDK 개발·통합: 제품 요구사항과 타깃 제약을 분석해 공통 SDK를 개발하고 Android, TWS DSP, AAOS/Embedded Linux, AI Edge 환경에 통합·검증했습니다. 플랫폼별 지연·메모리·연산량 제약을 분석해 적용 기준을 정리했습니다.
-· 품질·릴리즈: Python 기반 제어 도구와 테스트 자동화, CI/CD 기반 빌드·검증·릴리즈 절차를 운영했습니다.
+· Cross-platform SDK 개발·통합: 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계했습니다. Android, TWS DSP, AAOS/Embedded Linux, AI Edge 환경에 통합·검증하며 플랫폼별 적용 기준을 정리했습니다.
+· 성능·품질·릴리즈: 지연·메모리·연산량·버퍼·호환성 이슈를 분석하고, 단위/회귀 테스트와 CI/CD 기반 빌드·패키징·검증·릴리즈 절차를 운영했습니다.
 
 ## 2018.09 - 2021.03 | 현대에이치티
 
 회사/직무: 월패드 플랫폼/서버 개발  
-역할: 플랫폼/서버 개발 엔지니어 | 기여도: 40~100% (프로젝트별 상이)
+역할: 플랫폼/서버 개발 엔지니어
 
 주요 내용:
-- 기존 로컬 월패드 모델을 해외향 IoT 연동 모델로 전환해야 하는 상황에서 Linux/Android 월패드와 HT Home 플랫폼(REST/MQTT/SIP) 연동 기능을 설계·개발·배포
+- 기존 로컬 월패드 모델을 해외향 IoT 연동 모델로 전환하기 위해 Linux/Android 월패드와 홈 IoT 플랫폼 연동 기능을 설계·개발·배포(REST/MQTT/SIP)
 - 해외향 모델 1인 프로젝트로 기존 제품 분석부터 설계, 개발, 배포까지 전 과정을 수행하여 제품 출시 대응
 - 다기기 동시 제어 시 RS-485 구간 병목이 발생하는 문제를 제어/상태 Queue 분리 구조로 개선하여 제어 성능 저하를 완화
 - Push/방범/시나리오/도어벨 서비스 개발 및 API Gateway/Push 분리 기반 MSA 전환 작업에 참여하여 운영 안정성과 확장성 개선에 기여
@@ -52,21 +54,21 @@ C/C++, Java, Python, AAOS (Android Automotive OS), Embedded Linux, Android, RTOS
 
 업무 설명 - 전체 공개용:
 · Embedded Linux / Android 기반 월패드 플랫폼 개발 및 IoT 서버 연동
-· REST, MQTT, SIP 기반 HT Home 플랫폼 연동 기능 설계·개발·배포
+· REST, MQTT, SIP 기반 홈 IoT 플랫폼 연동 기능 설계·개발·배포
 · RS-485 기반 홈네트워크 제어 및 다기기 동시 제어 병목 개선
 · Push, 방범, 시나리오, 도어벨 서비스 개발
 · 기존 로컬 중심 월패드 제품을 서버 연동 모델로 전환하며 제품 분석, 설계, 구현, 검증, 출시 대응 수행
 
 업무 설명 - 채용 담당자용:
-· 해외향 IoT 월패드: 기존 로컬 중심 월패드 제품을 해외향 IoT 서버 연동 모델로 전환했습니다. Embedded Linux/Android 월패드와 HT Home 플랫폼을 REST, MQTT, SIP 기반으로 연동하고, 제품 분석, 요구사항 정리, 설계, 구현, 배포, 출시 대응까지 수행했습니다.
+· 해외향 IoT 월패드: 기존 로컬 중심 월패드 제품을 해외향 IoT 서버 연동 모델로 전환했습니다. Embedded Linux/Android 월패드와 홈 IoT 플랫폼을 REST, MQTT, SIP 기반으로 연동하고, 제품 분석, 요구사항 정리, 설계, 구현, 배포, 출시 대응까지 수행했습니다.
 · RS-485 제어 병목 개선: 다기기 동시 제어 시 RS-485 구간에서 발생하는 병목을 분석했습니다. 제어 Queue와 상태 Queue를 분리하는 구조로 개선해 제어 성능 저하를 완화하고, 월패드와 홈네트워크 장치 간 상태 동기화 안정성을 높였습니다.
 · 서버/서비스 개발: Push, 방범, 시나리오, 도어벨 서비스 개발을 수행했습니다. 월패드 제품 기능과 서버 서비스 간 연동을 안정화하고, API Gateway / Push 분리 기반 MSA 전환 작업에 참여해 운영 확장성 개선에 기여했습니다.
-· 제품화/출시 대응: Embedded Linux/Android 제품에서 서버 API, 장치 제어, 사용자 기능이 함께 동작하도록 통합 검증을 수행했습니다. 고객/현장 이슈에 대응하며 제품 출시와 운영 안정화 업무를 수행했습니다.
+· 제품화/출시 대응: Embedded Linux/Android 제품에서 서버 API, 장치 제어, 사용자 기능이 함께 동작하도록 통합 검증을 수행하고 제품 출시 대응을 진행했습니다.
 
 ## 2015.08 - 2018.08 | 에스코어
 
 회사/직무: Tizen 개발플랫폼  
-역할: 개발플랫폼 엔지니어 | 기여도: 40~60% (프로젝트별 상이)
+역할: 개발플랫폼 엔지니어
 
 주요 내용:
 - Tizen Studio 설치/업데이트/삭제 과정의 운영 복잡도를 줄이기 위해 Installer/Uninstaller/Package Manager를 Java, NSIS Script 기반으로 개발
@@ -91,7 +93,7 @@ C/C++, Java, Python, AAOS (Android Automotive OS), Embedded Linux, Android, RTOS
 ## 2013.10 - 2015.07 | 한국해양기상기술
 
 회사/직무: Android/Web/시스템 구축  
-역할: 앱·웹 개발 및 시스템 구축 | 기여도: 프로젝트별 개발/PM 수행
+역할: 앱·웹 개발 및 시스템 구축
 
 주요 내용:
 - 기상/해양 정보 제공을 위한 Android 앱(여우비 v1/v2, 마린통)을 개발하고 서비스 론칭
@@ -116,7 +118,7 @@ C/C++, Java, Python, AAOS (Android Automotive OS), Embedded Linux, Android, RTOS
 ## 2009.12 - 2013.10 | 휴맥스
 
 회사/직무: 일본향 셋탑박스 APP/MW 개발  
-역할: APP/Middleware 엔지니어 | 기여도: 모듈 개발 수행
+역할: APP/Middleware 엔지니어
 
 주요 내용:
 - 차량용·블루레이·PVR·IP 셋탑박스의 APP/Middleware 개발
