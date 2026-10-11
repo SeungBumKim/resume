@@ -4,11 +4,6 @@
 
 상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 17년차 엔지니어입니다. 최근에는 다양한 OS·SoC 환경에서 SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈를 수행했습니다.
 
-핵심 메시지:
-- 상용 Embedded APP/Middleware 개발, Linux/Android 제품 플랫폼 제품화, SDK 개발·통합으로 이어진 제품 소프트웨어 경력
-- Android·TWS DSP·AAOS/Embedded Linux·AI Edge 환경에서 공통 SDK 개발·통합 및 성능·자원 제약 분석
-- 테스트 자동화와 CI/CD 기반 검증·릴리즈 절차 운영
-
 ## 대표 프로젝트
 
 ### 1. Cross-platform SDK 개발 및 제품화
@@ -88,9 +83,7 @@
 - 핵심 구현: Windows·Ubuntu·macOS GUI/CLI의 설치·업데이트·삭제, 패키지·Extension·Repository 관리 기능 구현
 - 결과: VS Code Extension으로 Tizen CLI의 프로젝트 생성·빌드·패키징 흐름을 연동해 개발 환경 사용성 개선
 
-## 이전 제품·시스템 개발 경험
-
-### 한국해양기상기술 | Android·Linux 시스템 및 웹 모니터링 구축
+### 4. Android·Linux 시스템 및 웹 모니터링 구축
 
 회사/기간: 한국해양기상기술, 2013.10 - 2015.07
 
@@ -98,7 +91,7 @@
 - Android: 기상·해양 정보 앱의 데이터 파싱·표시와 센서·카메라·갤러리 연동 기능 개발
 - Linux·웹: Linux 소스 패키지 설치와 ROSE 작업 스케줄 환경을 구축하고, 로그 파싱·시각화·관리 기능 구현
 
-### 휴맥스 | 상용 셋탑박스 APP/Middleware 개발
+### 5. 상용 셋탑박스 APP/Middleware 개발
 
 회사/기간: 휴맥스, 2009.12 - 2013.10
 

@@ -1,33 +1,38 @@
-# Senior Embedded / Platform Software Engineer
+# 자기소개 문안
 
-## 리멤버 기본 프로필 (전체 공개)
+## 1. 성향·책임감·협업 중심
 
-17년간 상용 임베디드 제품과 플랫폼 소프트웨어를 개발해왔습니다. 최근에는 다양한 OS·SoC 환경에서 SDK를 구현·개발하고, Public API 설계, 시스템 통합, 성능 분석, 검증·릴리즈까지 수행했습니다.
+저는 상용 임베디드 제품과 플랫폼 소프트웨어를 개발하며 다양한 제품 환경과 개발 방식의 노하우를 쌓아온 엔지니어입니다. 상용 Embedded APP/Middleware, Android·Linux 기반 시스템, 멀티플랫폼 개발도구, IoT 제품 플랫폼, SDK 개발을 거치며 환경은 달랐지만, 제품을 완성하기 위해 필요한 기술적 기준을 세우고 개발을 끝까지 연결하는 역할은 일관됐습니다.
 
-타깃별 자원 제약과 오디오 경로를 분석해 SDK가 실제 제품 환경에서 안정적으로 동작하도록 만들고, 적용·검증 기준을 정리하는 일을 강점으로 합니다.
+프로젝트를 단독으로 맡을 때는 분석·설계·구현·배포까지 책임감을 갖고 마무리했습니다. 여러 개발자가 함께하는 프로젝트에서는 프로젝트 성격에 따라 개발·테크 리더 역할을 맡아 요구사항을 기능·API·통합 기준으로 구체화하고, 기술적 의사결정과 개발 우선순위를 정리했습니다. 필요할 때는 외부 협력사와 기술 요구사항·인터페이스·일정 영향을 조율했으며, 설계 문서, 코드 리뷰, 개발 환경, 빌드 절차를 통해 협업 기준을 맞추고 제품 적용과 릴리즈까지 연결했습니다.
 
-전문 분야:
-- Embedded / Platform Software Development
-- SDK Development & System Integration
-- 제약 환경 성능 분석, 튜닝, 검증·릴리즈
+문제가 발생하면 증상만 고치기보다 기능, 플랫폼, 장치, 네트워크가 만나는 지점을 분해해 원인을 확인합니다. 자원 제약과 동작 흐름을 작은 단위로 검증하고, 해결 결과를 재현 가능한 기준으로 남기는 방식을 중요하게 생각합니다. 이 과정은 새로운 플랫폼이나 익숙하지 않은 제품 환경에서도 빠르게 맥락을 파악하고 안정적으로 개발을 진행하는 기반이 되었습니다.
 
-주요 기술:
-- 언어/스크립팅: C/C++, Java, Python
-- 임베디드 플랫폼: AAOS, Embedded Linux, Android (App/Framework/HAL), RTOS, Bare-metal
-- 프레임워크/도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio
+최근에는 Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 등 여러 OS·SoC 환경에서 오디오 SDK를 구현·개발하고 Public API를 설계하고 있습니다. 타깃별 오디오 경로와 입출력 제약을 분석해 SDK를 통합하고, 지연·메모리·연산량·버퍼·호환성 문제를 제품 적용의 관점에서 해결해왔습니다. 또한 단위·회귀 테스트와 CI/CD 기반 빌드·패키징·검증 절차를 정리해, 한 번의 동작 확인이 아니라 반복 가능한 제품 적용과 릴리즈 품질로 이어지도록 했습니다.
 
-## 리멤버 구직용 소개 (채용 담당자 공개)
+앞으로도 직접 설계·개발하며 프로젝트의 기술적 완성도를 높이는 Senior Engineer로 성장하고, 장기적으로는 Tech Lead·Staff Engineer로서 제품과 플랫폼의 발전에 기여하겠습니다.
 
-저는 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계하며, 실제 제품 환경에서 발생하는 지연·메모리·연산량·버퍼 문제를 해결하는 엔지니어입니다. 최근에는 Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 환경의 오디오 SDK 개발·통합·검증을 수행했습니다.
+## 2. 채용 담당자·실무자용 기술 전문성 중심
 
-관심 포지션은 Embedded / Platform Software, SDK 개발, 시스템 통합, 성능·품질·릴리즈 영역입니다. Audio, Automotive IVI, TWS, Mobile, Web, AI Edge 등 다양한 제품 도메인에서 SDK와 플랫폼 소프트웨어를 제품화하는 시니어 엔지니어 역할에 적합합니다.
+저는 상용 임베디드 제품과 플랫폼 소프트웨어를 개발하며, 제품 요구사항을 SDK 기능·Public API·통합 기준으로 구체화하고 실제 제품 적용까지 연결해온 Senior Embedded / Platform Engineer입니다. 상용 Embedded APP/Middleware, Android·Linux 시스템, 멀티플랫폼 개발도구, IoT 제품 플랫폼, Cross-platform SDK를 경험하며 제품의 기능 구현뿐 아니라 플랫폼 간 연동과 검증·릴리즈까지 책임 범위를 넓혀왔습니다.
 
-## 자기소개
+최근에는 Android App/Framework/HAL, TWS DSP, AAOS IVI/Embedded Linux, AI Edge 등 서로 다른 OS·SoC 환경에서 오디오 SDK를 구현·개발하고 있습니다. 타깃별 오디오 경로, 입출력 버퍼, 실행 자원 제약을 분석해 SDK 통합 방식을 설계하며, 플랫폼마다 달라지는 기능·지연·유지보수 범위를 비교해 적용 위치와 구현 방식을 결정합니다. 단순 포팅에 그치지 않고, 공통 SDK가 여러 제품 환경에서 유지될 수 있도록 기능 구현·API 설계·통합·검증을 연결하는 것이 강점입니다.
 
-저는 17년간 상용 Embedded 제품과 플랫폼 소프트웨어를 개발해온 Senior Embedded / Platform Software Engineer 김승범입니다. 최근에는 다양한 OS·SoC 환경에서 SDK를 구현·개발하고, Public API 설계부터 통합·성능 분석·검증·릴리즈까지 이어지는 제품화 과정에 강점이 있습니다.
+성능 분석에서는 지연·메모리·연산량·버퍼·호환성 이슈를 재현하고 원인을 분리한 뒤, 타깃 제약에 맞춰 구현을 조정합니다. 단위·회귀 테스트와 CI/CD 기반 빌드·패키징·검증 절차를 함께 운영해 성능 개선이 다음 통합과 릴리즈에서도 확인될 수 있도록 했습니다. 프로젝트 성격에 따라 개발·테크 리더 역할을 맡아 기술 판단과 인터페이스 기준을 문서화하고, 외부 협력사와 연동 이슈를 조율해 개발 과정의 불확실성을 줄였습니다.
 
-가우디오랩에서는 Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 환경의 오디오 SDK를 개발·통합하고 리소스 제약과 제품별 오디오 경로를 분석해 동작 안정화를 수행했습니다. 차량용 헤드유닛, TWS, AI 추론 SDK 등 다양한 타깃에서 SDK 적용 방식과 검증 기준을 정리했으며, 단위/회귀 테스트와 CI/CD 기반 빌드·패키징·검증·릴리즈 절차를 운영했습니다.
+- 핵심 분야: Embedded / Platform Software, SDK Development, System Integration, Middleware, Public API Design, Productization
+- 최근 경험: Cross-platform Audio SDK, Android App/Framework/HAL, TWS DSP, AAOS IVI, Embedded Linux, AI Edge
+- 기술 역할: SDK 구현·개발, API 설계·모듈화, 플랫폼 통합, 성능 분석·최적화, 품질 검증·릴리즈
+- 성능·품질: Latency, Memory, MIPS, Buffer, Compatibility Analysis, Unit/Regression Test, CI/CD, Build/Packaging/Release
+- 언어·플랫폼: C/C++, Java, Python, AAOS, Embedded Linux, Android, RTOS, Bare-metal
+- 프레임워크·도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio
+- 제품 도메인: Commercial Embedded, Automotive IVI, TWS, Mobile, Web, AI Edge, IoT
+- 협업 경험: 개발·테크 리딩, 기술 요구사항·인터페이스 정의, 설계 문서·코드 리뷰, 외부 협력사 연동 조율
 
-이전에는 상용 셋탑박스의 APP/Middleware 개발, Android·Linux 기반 시스템 구축·운영, 멀티플랫폼 개발도구의 설치·패키지 관리와 CLI 자동화를 경험했습니다. 도메인은 달랐지만, 제품별 제약을 분석하고 기능을 구현해 실제 제품과 시스템으로 완성하는 역량을 일관되게 쌓아왔습니다.
+앞으로도 SDK와 플랫폼 소프트웨어의 설계·통합·성능·품질 역량을 심화해, 여러 제품과 플랫폼에 적용 가능한 기술 기반을 만드는 Senior Engineer로 성장하겠습니다.
 
-앞으로도 Embedded / Platform Software와 SDK 영역에서 복잡한 제품 환경의 통합·성능·품질 문제를 해결하며, 기술 IC로서 제품화와 플랫폼 고도화에 기여하고자 합니다.
+## 4. 커넥트용 프로필 소개
+
+상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 Senior Embedded / Platform Engineer입니다. 다양한 OS·SoC 환경에서 SDK를 개발·통합하고, 제품별 성능·자원 제약을 분석해 실제 제품 적용과 검증·릴리즈까지 연결하는 일을 해왔습니다.
+
+프로젝트에 따라 직접 구현을 맡거나 개발·테크 리더 역할로 기술 요구사항과 인터페이스를 정리하며, 협업사와의 연동 이슈를 조율했습니다. 새로운 제품 환경을 이해하고 복잡한 통합 문제를 해결하는 과정에 관심이 많습니다.
