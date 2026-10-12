@@ -6,14 +6,10 @@ Senior Embedded / Platform Software Engineer
 
 상용 임베디드 제품과 플랫폼 소프트웨어를 개발해왔습니다. 최근에는 다양한 OS·SoC 환경에서 SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈를 수행했습니다.
 
-## 전문 분야
+## 주요 기술
 
-전문 분야:
-- Embedded / Platform Software Development
-- SDK Development & System Integration
-- 제약 환경 성능 분석, 튜닝, 검증·릴리즈
+상용 임베디드 제품의 미들웨어와 플랫폼 기능을 개발했고, 최근에는 오디오 SDK의 Public API 설계부터 플랫폼 통합, 성능 분석, 검증·릴리즈까지 수행했습니다.
 
-주요 기술:
 - 언어/스크립팅: C/C++, Java, Python
 - 임베디드 플랫폼: AAOS, Embedded Linux, Android (App/Framework/HAL), RTOS, Bare-metal
 - 프레임워크/도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio
@@ -32,7 +28,7 @@ Android·Linux 기반 월패드와 홈 IoT 플랫폼을 연동하는 제품 개�
 
 Windows·Ubuntu·macOS 환경의 개발도구 설치·패키지 관리와 CLI 연동 기능을 개발했습니다. 멀티플랫폼 개발 환경에서 배포 안정성과 개발자 사용성을 높이는 일을 담당했습니다.
 
-### 한국해양기상기술 | Android/Web/시스템 구축
+### 한국해양기상기술 | Android·Linux 시스템 및 웹 모니터링
 
 Android 앱, Linux 기반 운영 시스템, 웹 모니터링을 구축했습니다. 기상·해양 정보 서비스의 데이터 처리와 운영 환경을 개발하고, 시스템 구축·교육까지 수행했습니다.
 
@@ -49,12 +45,13 @@ Android 앱, Linux 기반 운영 시스템, 웹 모니터링을 구축했습니�
 
 #### 채용 서비스용 경력 설명
 
-- Cross-platform SDK 개발·제품화: 타깃 요구사항과 자원 제약을 분석해 SDK를 구현·개발하고 Public API를 설계·모듈화했습니다. Android·TWS DSP·AAOS IVI/Embedded Linux·AI Edge 환경의 오디오 경로와 입출력 제약을 분석해 플랫폼별 통합·검증 기준을 정리했습니다.
-- 차량용 내장 앰프 헤드유닛: Qualcomm SA 계열 양산 대상 및 Telechips AAOS 기반 헤드유닛 환경에서 SDK 기능 개발·포팅, 오디오 경로 통합, 동작 안정화와 검증을 수행했습니다. 전용 제어·파라미터 튜닝 도구를 개발해 타깃 검증과 튜닝에 활용했습니다.
-- 차량용 외장 앰프: ADI SHARC+ DSP·Audio Weaver 환경에서 SDK 기능 개발·통합 방식과 검증 기준을 정리했습니다. Memory/MIPS·지연·버퍼 이슈를 분석·최적화하고, 전용 튜닝 도구를 개발해 SDK 통합·검증 PoC를 완료했습니다.
-- AI 추론 SDK: Mac·Windows·Android/iOS CPU, GAP9 AI Processor, NVIDIA Tegra 환경의 추론 SDK를 개발·통합했습니다. WebRTC 연동, GStreamer Element 통합, 모델 Graph 구현과 PyTorch·ONNX·TensorRT 기반 추론 방식 검토·최적화를 수행했습니다.
-- TWS·Android 플랫폼: 이기종 TWS DSP에서 SDK 기능과 입출력 버퍼 연동 방식을 구현하고 Fixed-point·SIMD 최적화와 릴리즈를 수행했습니다. Airoha·QCC 일부 타깃은 제품 탑재 후 양산까지 진행했습니다. Android App·AOSP Framework/Audio HAL·Qualcomm Hexagon DSP 레이어에서는 SDK 적용 위치와 지연·통합 제약을 비교·검증했습니다.
-- 성능·품질·릴리즈: 지연·메모리·연산량·버퍼·호환성 이슈를 분석하고, 단위/회귀 테스트와 CI/CD 기반 빌드·패키징·검증·릴리즈 절차를 운영했습니다.
+- 공통 오디오 SDK: 제품별 요구사항을 C/C++ SDK 기능과 Public API로 구체화하고, 타깃의 오디오 경로·입출력 제약에 맞춰 모듈과 통합 방식을 설계했습니다.
+- 차량용 내장 앰프 헤드유닛: Qualcomm SA 계열 양산 대상에서 SDK 기능 개발·포팅과 검증을 수행했습니다. Telechips AAOS 헤드유닛에서는 오디오 경로에 SDK를 통합하고 동작을 안정화했습니다. 두 환경의 검증·튜닝에는 직접 개발한 제어·파라미터 튜닝 도구를 활용했습니다.
+- 차량용 외장 앰프: ADI SHARC+ DSP와 Audio Weaver 환경에 SDK를 통합했습니다. 메모리·연산량(MIPS)·지연·버퍼 제약을 분석하고 전용 튜닝 도구로 동작을 검증해 PoC를 완료했습니다.
+- AI 추론 SDK: Mac·Windows·Android/iOS CPU와 GAP9 AI Processor에서 추론 SDK를 개발·통합했습니다. WebRTC 오디오 경로와 NVIDIA Tegra의 GStreamer Element에 SDK를 연동하고, 모델 Graph 구현과 PyTorch·ONNX·TensorRT 기반 추론 방식을 검토·최적화했습니다.
+- TWS DSP: 이기종 타깃의 SDK 입출력 버퍼를 연동하고 Fixed-point 변환과 SIMD 최적화로 연산·지연 제약에 대응했습니다. Airoha·QCC 일부 타깃은 SDK를 제품에 탑재해 양산까지 진행했습니다.
+- Android 오디오 경로: App·AOSP Framework/Audio HAL·Qualcomm Hexagon DSP 레이어에서 SDK 적용 위치에 따른 지연과 통합 제약을 비교·검증했습니다.
+- 검증·릴리즈: 타깃별 메모리·연산량·버퍼·호환성 이슈를 재현하고, 단위·회귀 테스트와 CI/CD 빌드·패키징·검증 절차를 운영했습니다.
 
 ### 2018.09 - 2021.03 | 현대에이치티
 
@@ -83,7 +80,7 @@ Android 앱, Linux 기반 운영 시스템, 웹 모니터링을 구축했습니�
 
 ### 2013.10 - 2015.07 | 한국해양기상기술
 
-회사/직무: Android/Web/시스템 구축
+회사/직무: Android·Linux 시스템 및 웹 모니터링
 역할: 앱·웹 개발 및 시스템 구축
 
 #### 채용 서비스용 경력 설명

@@ -20,14 +20,7 @@
 
 성능 분석에서는 지연·메모리·연산량·버퍼·호환성 이슈를 재현하고 원인을 분리한 뒤, 타깃 제약에 맞춰 구현을 조정합니다. 단위·회귀 테스트와 CI/CD 기반 빌드·패키징·검증 절차를 함께 운영해 성능 개선이 다음 통합과 릴리즈에서도 확인될 수 있도록 했습니다. 프로젝트 성격에 따라 개발·테크 리더 역할을 맡아 기술 판단과 인터페이스 기준을 문서화하고, 외부 협력사와 연동 이슈를 조율해 개발 과정의 불확실성을 줄였습니다.
 
-- 핵심 분야: Embedded / Platform Software, SDK Development, System Integration, Middleware, Public API Design, Productization
-- 최근 경험: Cross-platform Audio SDK, Android App/Framework/HAL, TWS DSP, AAOS IVI, Embedded Linux, AI Edge
-- 기술 역할: SDK 구현·개발, API 설계·모듈화, 플랫폼 통합, 성능 분석·최적화, 품질 검증·릴리즈
-- 성능·품질: Latency, Memory, MIPS, Buffer, Compatibility Analysis, Unit/Regression Test, CI/CD, Build/Packaging/Release
-- 언어·플랫폼: C/C++, Java, Python, AAOS, Embedded Linux, Android, RTOS, Bare-metal
-- 프레임워크·도구: GStreamer, WebRTC, Audio Weaver, SigmaStudio
-- 제품 도메인: Commercial Embedded, Automotive IVI, TWS, Mobile, Web, AI Edge, IoT
-- 협업 경험: 개발·테크 리딩, 기술 요구사항·인터페이스 정의, 설계 문서·코드 리뷰, 외부 협력사 연동 조율
+차량용 외장 앰프에서는 ADI SHARC+ DSP와 Audio Weaver 환경에 SDK를 통합하면서 메모리·연산량·지연 제약을 검증해 PoC를 완료했습니다. 이후 Qualcomm SA 계열 양산 대상과 Telechips AAOS 헤드유닛에서도 각각 SDK 기능 개발·포팅과 오디오 경로 통합을 수행했습니다. TWS DSP에서는 입출력 버퍼와 연산 방식을 최적화해 일부 Airoha·QCC 타깃의 제품 탑재와 양산까지 연결했습니다. 이러한 경험을 통해 플랫폼이 달라져도 요구사항을 SDK 구현과 검증 기준으로 구체화하는 역량을 쌓았습니다.
 
 앞으로도 SDK와 플랫폼 소프트웨어의 설계·통합·성능·품질 역량을 심화해, 여러 제품과 플랫폼에 적용 가능한 기술 기반을 만드는 Senior Engineer로 성장하겠습니다.
 
