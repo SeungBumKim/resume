@@ -15,4 +15,4 @@ Senior Embedded Audio / DSP SDK Integration Engineer 포지션 중심으로 정�
 
 ## 사용 방법
 - 웹 확인: `open index.html`, `open career.html`
-- PDF 저장: 각 페이지에서 `PDF로 저장` 또는 `Cmd+P`
+- PDF 저장: 각 페이지 우측 상단의 `PDF 저장 / 인쇄` 버튼을 누르고 출력 대상을 PDF로 선택 (`Cmd+P`도 가능)

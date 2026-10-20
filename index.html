@@ -1,163 +1,95 @@
 <!doctype html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>김승범 | Resume</title>
-  <meta name="description" content="김승범 Senior Embedded / Platform Software Engineer 이력서" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
-    rel="stylesheet" />
+  <title>김승범 이력서</title>
+  <meta name="description" content="김승범 임베디드·플랫폼 소프트웨어 엔지니어 이력서" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
-  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
-
-  <main class="resume" id="resume">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">SENIOR EMBEDDED / PLATFORM SOFTWARE ENGINEER</p>
-        <h1>김승범</h1>
-        <p class="subtitle">
-          상용 임베디드 제품과 플랫폼 소프트웨어를 개발해온 17년차 엔지니어입니다.
-          최근에는 다양한 OS·SoC 환경에서 <strong>SDK 개발, 시스템 통합, 성능 분석, 검증·릴리즈</strong>를 수행했습니다.
-        </p>
+  <main class="document resume-document">
+    <header class="document-header">
+      <h1>김승범</h1>
+      <div class="document-actions">
+        <button type="button" onclick="window.print()">PDF 저장 / 인쇄</button>
       </div>
-      <div class="meta">
-        <p>서울, 대한민국</p>
-        <p>총 경력: 17년 (2009.12 - 현재)</p>
-        <p><a href="mailto:sbkim0729@gmail.com">sbkim0729@gmail.com</a></p>
-        <p>입사 가능 시점: 협의 가능</p>
-        <button class="print-btn" onclick="window.print()">PDF 이력서: PDF로 저장</button>
-      </div>
+      <p class="position">임베디드 / 플랫폼 소프트웨어 엔지니어</p>
+      <p class="contact">서울 · 경력 16년 (2009.12 - 현재) · <a href="tel:+821087316310">010-8731-6310</a> · <a href="mailto:sbkim0729@gmail.com">sbkim0729@gmail.com</a></p>
     </header>
 
     <section>
-      <h2>핵심 포지셔닝</h2>
-      <div class="cards cards-kpi">
-        <article class="card">
-          <h3>제품 개발·플랫폼 통합</h3>
-          <p>상용 Embedded 제품의 기능·미들웨어를 개발하고, 플랫폼 통합과 제품화까지 수행.</p>
+      <h2>경력 사항</h2>
+      <div class="experience">
+        <article class="job">
+          <div class="job-heading"><h3>가우디오랩</h3><span>2021.03 - 현재</span></div>
+          <p class="job-role">오디오 SDK 개발 및 플랫폼 통합</p>
+          <ul>
+            <li>C/C++ 오디오 SDK 기능과 공통 Public API 개발, 플랫폼별 오디오 경로 통합 및 검증</li>
+            <li>Qualcomm·Telechips 헤드유닛 SDK 개발·포팅, ADI SHARC+ DSP 외장 앰프 통합 PoC 수행</li>
+            <li>AI 추론 SDK의 WebRTC·GStreamer 연동, TWS DSP 최적화와 일부 제품 양산 적용</li>
+            <li>단위·회귀 테스트와 CI/CD 빌드·패키징·검증 및 타깃별 SDK 릴리즈 수행</li>
+          </ul>
         </article>
-        <article class="card">
-          <h3>성능·자원 최적화</h3>
-          <p><strong>메모리·연산량·지연·병목을 분석</strong>하고 제약 환경에서도 제품 적용이 가능하도록 최적화.</p>
+        <article class="job">
+          <div class="job-heading"><h3>현대에이치티</h3><span>2018.09 - 2021.03</span></div>
+          <p class="job-role">월패드 플랫폼 및 서버 개발</p>
+          <ul>
+            <li>해외향 Android 월패드의 홈 IoT 서버 연동(REST/MQTT), SIP 영상통화 개발 및 출시 대응</li>
+            <li>RS-485 제어·상태 Queue 분리로 다기기 제어 병목 완화</li>
+            <li>Push·방범·시나리오·도어벨 서비스 개발 및 MSA 전환에 참여</li>
+          </ul>
         </article>
-        <article class="card">
-          <h3>품질·릴리즈</h3>
-          <p><strong>테스트 자동화와 CI/CD</strong>를 바탕으로 검증·릴리즈 절차를 운영.</p>
+        <article class="job">
+          <div class="job-heading"><h3>에스코어</h3><span>2015.08 - 2018.08</span></div>
+          <p class="job-role">Tizen 개발 플랫폼</p>
+          <ul>
+            <li>Java·NSIS Script로 Tizen Studio 설치·업데이트·패키지 관리 도구 개발</li>
+            <li>Windows·Ubuntu·macOS 지원 및 VS Code Extension 기반 Tizen CLI 연동</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="job-heading"><h3>한국해양기상기술</h3><span>2013.10 - 2015.07</span></div>
+          <p class="job-role">Android·Linux 시스템 및 웹 모니터링</p>
+          <ul>
+            <li>Android 앱(여우비 v1/v2, 마린통) 개발 및 서비스 론칭</li>
+            <li>기상청 기후예측 웹 모니터링 시스템 개발, Linux 기반 ROSE 작업 스케줄링 시스템 구축</li>
+          </ul>
+        </article>
+        <article class="job">
+          <div class="job-heading"><h3>휴맥스</h3><span>2009.12 - 2013.10</span></div>
+          <p class="job-role">일본향 셋톱박스 애플리케이션 및 미들웨어 개발</p>
+          <ul>
+            <li>차량용·블루레이·PVR·IP 셋톱박스의 Embedded C/C++ APP/Middleware 개발</li>
+            <li>EPG·AV Control 등 방송 기능 개발, 공용 Middleware 이식 및 OIPF JavaScript API 연동</li>
+          </ul>
         </article>
       </div>
     </section>
 
     <section>
-      <h2>경력 요약</h2>
-      <div class="timeline">
-        <article>
-          <div class="period">2021.03 - 현재</div>
-          <div>
-            <h3>가우디오랩 | SDK 개발 및 플랫폼 통합</h3>
-            <p class="role-meta">역할: SDK 개발·검증 및 플랫폼 통합 엔지니어</p>
-            <ul>
-              <li>제품별 오디오 경로와 자원 제약을 분석해 C/C++ 오디오 SDK 기능을 개발하고, 공통 Public API와 플랫폼별 통합 방식을 설계</li>
-              <li>Qualcomm SA 계열 양산 대상 헤드유닛과 Telechips AAOS 헤드유닛에서 각각 SDK 개발·포팅, 오디오 경로 통합·검증 수행</li>
-              <li>ADI SHARC+ DSP·Audio Weaver 기반 외장 앰프에 SDK를 통합하고 메모리·연산량·지연 제약을 검증해 PoC 완료. 전용 제어·파라미터 튜닝 도구 개발</li>
-              <li>AI 추론 SDK를 WebRTC 오디오 경로와 NVIDIA Tegra의 GStreamer Element에 연동해 제품 환경에서 검증</li>
-              <li>Android App/Framework/HAL의 SDK 적용 지점을 분석하고 TWS DSP의 입출력 버퍼·연산을 최적화. Airoha·QCC 일부 타깃은 제품 탑재 후 양산</li>
-              <li>단위·회귀 테스트와 CI/CD 빌드·패키징·검증 절차를 운영하고 타깃별 SDK 릴리즈 수행</li>
-            </ul>
-          </div>
-        </article>
-
-        <article>
-          <div class="period">2018.09 - 2021.03</div>
-          <div>
-            <h3>현대에이치티 | 월패드 플랫폼/서버 개발</h3>
-            <p class="role-meta">역할: 플랫폼/서버 개발 엔지니어</p>
-            <ul>
-              <li>Android 월패드에서 REST/MQTT로 홈 IoT 서버와 데이터를 연동하고 SIP 영상통화를 구현해 해외향 모델로 제품화</li>
-              <li>해외향 IoT 월패드 모델의 분석·설계·개발·배포·출시 대응을 단독 수행</li>
-              <li>다기기 동시 제어 시 RS-485 병목이 발생하는 문제를 Queue 분리 구조로 개선해 제어 성능 저하 완화</li>
-              <li>Push/방범/시나리오/도어벨 서비스 개발 및 MSA 전환에 참여</li>
-            </ul>
-          </div>
-        </article>
-
-        <article>
-          <div class="period">2015.08 - 2018.08</div>
-          <div>
-            <h3>에스코어 | Tizen 개발 플랫폼</h3>
-            <p class="role-meta">역할: 개발 플랫폼 엔지니어</p>
-            <ul>
-              <li>Java·NSIS Script로 Tizen Studio의 설치·삭제·패키지 관리 도구와 공통 유틸리티 개발</li>
-              <li>Windows·Ubuntu·macOS의 GUI/CLI에서 설치·업데이트·삭제와 패키지 관리 기능 구현</li>
-              <li>VS Code Extension(TypeScript) 기반 Tizen CLI의 프로젝트 생성·빌드·패키징 연동</li>
-            </ul>
-          </div>
-        </article>
-
-        <article>
-          <div class="period">2013.10 - 2015.07</div>
-          <div>
-            <h3>한국해양기상기술 | Android·Linux 시스템 및 웹 모니터링</h3>
-            <p class="role-meta">역할: 앱·웹 개발 및 시스템 구축</p>
-            <ul>
-              <li>Android 앱(여우비 v1/v2, 마린통) 개발 및 서비스 론칭</li>
-              <li>기상청 기후예측 웹 모니터링 시스템(로그 파싱/가시화/보고) 개발</li>
-              <li>Linux 기반 슈퍼컴퓨터 작업 스케줄링 시스템 ROSE 구축·교육 수행</li>
-            </ul>
-          </div>
-        </article>
-
-        <article>
-          <div class="period">2009.12 - 2013.10</div>
-          <div>
-            <h3>휴맥스 | 일본향 셋탑박스 APP/MW 개발</h3>
-            <p class="role-meta">역할: 애플리케이션/미들웨어 엔지니어</p>
-            <ul>
-              <li>차량용·블루레이·PVR·IP 셋탑박스의 Embedded C/C++ 기반 APP/Middleware 개발</li>
-              <li>EPG·Program Info·Menu·Install, 방송 데이터 파싱·관리, AV Control 기능 개발</li>
-              <li>공용 Middleware 이식, OIPF JavaScript API와 Android 연동 기능 개발</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="split">
-      <div>
-        <h2>학력</h2>
-        <p><strong>광운대학교 컴퓨터소프트웨어학과 학사</strong> (2003 - 2010)</p>
-        <ul>
-          <li>학점: 4.07 / 4.5</li>
-          <li>졸업논문: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01304512" target="_blank"
-              rel="noreferrer">대화식 유전 알고리즘을 이용한 문양 생성 (2009)</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>수상/자격</h2>
-        <ul>
-          <li>2009 ACM-ICPC 대학생 프로그래밍 경진대회 동상</li>
-          <li>정보처리기사 취득 (2009, 한국산업인력공단)</li>
-          <li>삼성 SW 검정시험 Professional Level 취득 (2017)</li>
-        </ul>
-      </div>
+      <h2>학력</h2>
+      <p class="education"><strong>광운대학교 컴퓨터소프트웨어학과 학사</strong><span>2003 - 2010 · 학점 4.07 / 4.5</span></p>
+      <p class="note">졸업논문: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01304512" target="_blank" rel="noreferrer">대화식 유전 알고리즘을 이용한 문양 생성 (2009)</a></p>
     </section>
 
     <section>
-      <h2>기술 스택</h2>
-      <ul class="stack-list">
-        <li><strong>언어/스크립팅</strong>: C/C++, Java, Python</li>
-        <li><strong>임베디드 플랫폼</strong>: AAOS (Android Automotive OS), Embedded Linux, Android (App / Framework / HAL), RTOS, Bare-metal</li>
-        <li><strong>프레임워크/도구</strong>: GStreamer, WebRTC, Audio Weaver, SigmaStudio</li>
+      <h2>자격 및 수상</h2>
+      <ul class="plain-list">
+        <li>2009 ACM-ICPC 대학생 프로그래밍 경진대회 동상</li>
+        <li>정보처리기사 취득 (2009, 한국산업인력공단)</li>
+        <li>삼성 SW 검정시험 Professional Level 취득 (2017)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>기술</h2>
+      <ul class="skill-list">
+        <li><strong>언어</strong> C/C++, Java, Python</li>
+        <li><strong>플랫폼</strong> AAOS / AOSP (App / Framework / HAL), Embedded Linux, RTOS, DSP</li>
+        <li><strong>도구</strong> GStreamer, WebRTC, Audio Weaver, SigmaStudio</li>
       </ul>
     </section>
   </main>
 </body>
-
 </html>
